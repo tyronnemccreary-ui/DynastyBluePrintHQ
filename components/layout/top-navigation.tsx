@@ -13,7 +13,7 @@ export function TopNavigation() {
   const activeItem = navigationItems.find((item) => item.href === pathname);
 
   return (
-    <header className="sticky top-0 z-30 border-b border-white/10 bg-blueprint-950/82 px-5 py-4 backdrop-blur sm:px-8 lg:px-10">
+    <header className="sticky top-0 z-30 border-b border-white/10 bg-blueprint-950/88 px-5 py-4 backdrop-blur sm:px-8 lg:px-10">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4">
         <div className="min-w-0">
           <p className="text-xs font-medium uppercase tracking-[0.18em] text-blueprint-300">
@@ -53,7 +53,7 @@ export function TopNavigation() {
               className={cn(
                 "shrink-0 rounded-md px-3 py-2 text-xs font-medium transition-colors",
                 isActive
-                  ? "bg-white text-blueprint-950"
+                  ? "bg-turf-400 text-blueprint-950"
                   : "bg-white/[0.055] text-blueprint-200"
               )}
               href={item.href}

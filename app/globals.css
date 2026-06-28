@@ -4,7 +4,7 @@
 
 :root {
   color-scheme: dark;
-  background: #0b0c0a;
+  background: #05070d;
 }
 
 * {
@@ -13,19 +13,20 @@
 
 html {
   min-height: 100%;
-  background: #0b0c0a;
+  background: #05070d;
 }
 
 body {
   min-height: 100vh;
   margin: 0;
   background:
-    radial-gradient(circle at top left, rgba(143, 185, 141, 0.08), transparent 32rem),
-    linear-gradient(135deg, #0b0c0a 0%, #11120f 42%, #171714 100%);
-  color: #f7f7f2;
+    radial-gradient(circle at 72% 84%, rgba(246, 184, 26, 0.12), transparent 24rem),
+    radial-gradient(circle at 24% 18%, rgba(34, 74, 130, 0.18), transparent 32rem),
+    linear-gradient(135deg, #05070d 0%, #071226 46%, #020307 100%);
+  color: #fffaf0;
 }
 
 ::selection {
-  background: rgba(143, 185, 141, 0.28);
+  background: rgba(246, 184, 26, 0.32);
   color: #ffffff;
 }

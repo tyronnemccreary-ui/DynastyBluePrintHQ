@@ -10,7 +10,7 @@ export function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className="hidden min-h-screen border-r border-white/10 bg-black/20 px-4 py-6 backdrop-blur lg:block">
+    <aside className="hidden min-h-screen border-r border-white/10 bg-blueprint-950/88 px-4 py-6 backdrop-blur lg:block">
       <div className="mb-8 px-2">
         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-turf-400">
           Dynasty
@@ -33,7 +33,7 @@ export function Sidebar() {
               className={cn(
                 "group flex h-11 items-center justify-between rounded-md px-3 text-sm font-medium transition-colors",
                 isActive
-                  ? "bg-white text-blueprint-950"
+                  ? "bg-turf-400 text-blueprint-950"
                   : "text-blueprint-200 hover:bg-white/[0.055] hover:text-white"
               )}
               href={item.href}

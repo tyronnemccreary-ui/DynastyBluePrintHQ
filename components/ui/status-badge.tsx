@@ -8,8 +8,8 @@ type StatusBadgeProps = {
 
 const tones = {
   neutral: "border-white/10 bg-white/[0.055] text-blueprint-200",
-  ready: "border-turf-400/30 bg-turf-400/10 text-turf-400",
-  attention: "border-blueprint-300/30 bg-blueprint-300/10 text-blueprint-100"
+  ready: "border-turf-400/35 bg-turf-400/10 text-turf-400",
+  attention: "border-turf-400/45 bg-turf-400/15 text-blueprint-50"
 };
 
 export function StatusBadge({

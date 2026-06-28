@@ -39,7 +39,7 @@ export default function ProgramOfficePage() {
               Blueprint snapshot after a basic profile has been created.
             </p>
             <Link
-              className="mt-6 inline-flex h-10 items-center justify-center gap-2 rounded-md bg-blueprint-100 px-4 text-sm font-medium text-blueprint-950 transition-colors hover:bg-white focus:outline-none focus:ring-2 focus:ring-turf-400/60"
+              className="mt-6 inline-flex h-10 items-center justify-center gap-2 rounded-md bg-turf-400 px-4 text-sm font-medium text-blueprint-950 transition-colors hover:bg-[#ffc83d] focus:outline-none focus:ring-2 focus:ring-turf-400/60"
               href="/welcome"
             >
               Go to Welcome
