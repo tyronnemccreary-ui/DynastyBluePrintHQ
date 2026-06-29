@@ -1,17 +1,21 @@
 import { Card } from "@/components/ui/card";
 import { StatusBadge } from "@/components/ui/status-badge";
-import type { WarRoomPriority } from "@/types/recommendation";
+import type {
+  FootballRecommendation,
+  RecommendationPriority
+} from "@/types/recommendation";
 
 type PriorityCardProps = {
-  priority: WarRoomPriority;
+  priority: FootballRecommendation;
   index: number;
 };
 
-const priorityTone = {
+const priorityTone: Record<RecommendationPriority, "neutral" | "ready" | "attention"> = {
+  Critical: "attention",
   High: "attention",
   Medium: "ready",
   Low: "neutral"
-} as const;
+};
 
 export function PriorityCard({ priority, index }: PriorityCardProps) {
   return (
@@ -23,15 +27,19 @@ export function PriorityCard({ priority, index }: PriorityCardProps) {
           </p>
           <h3 className="mt-3 text-lg font-semibold text-white">{priority.title}</h3>
         </div>
-        <StatusBadge tone={priorityTone[priority.priorityLevel]}>
-          {priority.priorityLevel}
+        <StatusBadge tone={priorityTone[priority.priority]}>
+          {priority.priority}
         </StatusBadge>
       </div>
 
-      <p className="mt-3 text-sm font-medium text-turf-400">{priority.department}</p>
+      <p className="mt-3 text-sm font-medium text-turf-400">{priority.category}</p>
       <div className="mt-5 space-y-4">
         <PrioritySection label="Recommendation" value={priority.recommendation} />
         <PrioritySection label="Reason" value={priority.reason} />
+        <PrioritySection
+          label="Expected Outcome"
+          value={priority.expectedOutcome}
+        />
       </div>
     </Card>
   );

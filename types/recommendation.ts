@@ -1,12 +1,22 @@
-export type PriorityLevel = "High" | "Medium" | "Low";
+export type RecommendationCategory =
+  | "Recruiting"
+  | "Blueprint"
+  | "Staff"
+  | "Facilities"
+  | "Roster"
+  | "Transfer Portal";
 
-export type WarRoomPriority = {
+export type RecommendationPriority = "Critical" | "High" | "Medium" | "Low";
+
+export type FootballRecommendation = {
   id: string;
+  category: RecommendationCategory;
+  priority: RecommendationPriority;
   title: string;
-  department: string;
   recommendation: string;
   reason: string;
-  priorityLevel: PriorityLevel;
+  tradeoffs: string[];
+  expectedOutcome: string;
 };
 
 export type ProgramHealth = {

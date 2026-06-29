@@ -4,22 +4,21 @@ import Link from "next/link";
 import { ArrowRight, LayoutDashboard } from "lucide-react";
 import {
   mockExecutiveBriefing,
-  mockProgramHealth,
-  mockWarRoomPriorities
+  mockProgramHealth
 } from "@/data/mock-recommendations";
+import { RecommendationList } from "@/components/recommendations/RecommendationList";
 import { ExecutiveBriefingCard } from "@/components/war-room/ExecutiveBriefingCard";
-import { PriorityCard } from "@/components/war-room/PriorityCard";
 import { ProgramHealthCard } from "@/components/war-room/ProgramHealthCard";
 import { ProgramStatusCard } from "@/components/war-room/ProgramStatusCard";
 import { QuickActions } from "@/components/war-room/QuickActions";
 import { Card } from "@/components/ui/card";
 import { SectionHeader } from "@/components/ui/section-header";
 import { StatusBadge } from "@/components/ui/status-badge";
+import { getTopFootballOperationsRecommendations } from "@/services/recommendation-engine";
 import { useProgramStore } from "@/store/program-store";
 
 export default function WarRoomPage() {
   const programProfile = useProgramStore((state) => state.programProfile);
-  const priorities = mockWarRoomPriorities.slice(0, 3);
 
   if (!programProfile) {
     return (
@@ -57,6 +56,10 @@ export default function WarRoomPage() {
     );
   }
 
+  const recommendations = getTopFootballOperationsRecommendations({
+    programProfile
+  });
+
   return (
     <div className="space-y-6">
       <SectionHeader
@@ -73,21 +76,7 @@ export default function WarRoomPage() {
 
       <ExecutiveBriefingCard briefing={mockExecutiveBriefing} />
 
-      <section className="space-y-4">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <StatusBadge>Three Priorities</StatusBadge>
-            <h2 className="mt-4 text-xl font-semibold text-white">What Needs Attention</h2>
-          </div>
-          <p className="text-sm text-blueprint-300">Exactly three priorities shown.</p>
-        </div>
-
-        <div className="grid gap-4 lg:grid-cols-3">
-          {priorities.map((priority, index) => (
-            <PriorityCard index={index} key={priority.id} priority={priority} />
-          ))}
-        </div>
-      </section>
+      <RecommendationList recommendations={recommendations} />
 
       <QuickActions />
     </div>
