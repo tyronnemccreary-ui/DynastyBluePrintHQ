@@ -1,4 +1,5 @@
 import { RecommendationCard } from "@/components/operations/RecommendationCard";
+import { Card } from "@/components/ui/card";
 import { StatusBadge } from "@/components/ui/status-badge";
 import type { FootballRecommendation } from "@/types/recommendation";
 
@@ -19,15 +20,25 @@ export function RecommendationList({ recommendations }: RecommendationListProps)
         </p>
       </div>
 
-      <div className="grid gap-4 lg:grid-cols-3">
-        {recommendations.map((recommendation, index) => (
-          <RecommendationCard
-            index={index}
-            key={recommendation.id}
-            recommendation={recommendation}
-          />
-        ))}
-      </div>
+      {recommendations.length > 0 ? (
+        <div className="grid gap-4 lg:grid-cols-3">
+          {recommendations.map((recommendation, index) => (
+            <RecommendationCard
+              index={index}
+              key={recommendation.id}
+              recommendation={recommendation}
+            />
+          ))}
+        </div>
+      ) : (
+        <Card className="p-5">
+          <StatusBadge tone="ready">No Critical Decisions</StatusBadge>
+          <p className="mt-4 text-sm leading-6 text-blueprint-100">
+            No high-priority football operations decisions were generated from the
+            current mock data set.
+          </p>
+        </Card>
+      )}
     </section>
   );
 }

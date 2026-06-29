@@ -28,8 +28,3 @@ export type ProgramHealth = {
   blueprint: number;
   staff: number;
 };
-
-export type ExecutiveBriefing = {
-  title: string;
-  body: string;
-};

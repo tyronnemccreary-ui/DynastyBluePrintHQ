@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ArrowRight, LayoutDashboard } from "lucide-react";
-import { mockProgramHealth } from "@/data/mock-recommendations";
+import { mockProgramHealth } from "@/data/mock-program-health";
 import { WeeklyOperationsBriefing } from "@/components/operations/WeeklyOperationsBriefing";
 import { ProgramHealthCard } from "@/components/war-room/ProgramHealthCard";
 import { ProgramStatusCard } from "@/components/war-room/ProgramStatusCard";

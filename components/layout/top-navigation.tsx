@@ -2,9 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, Search } from "lucide-react";
+import { Menu } from "lucide-react";
 import { navigationItems } from "@/data/navigation";
-import { Button } from "@/components/ui/button";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { cn } from "@/utils/cn";
 
@@ -25,10 +24,6 @@ export function TopNavigation() {
         </div>
 
         <div className="hidden items-center gap-3 md:flex">
-          <Button variant="ghost" className="gap-2" aria-label="Search">
-            <Search className="h-4 w-4" aria-hidden="true" />
-            Search
-          </Button>
           <StatusBadge>Foundation</StatusBadge>
         </div>
 

@@ -12,7 +12,7 @@ import {
 
 export const navigationItems = [
   {
-    title: "Welcome",
+    title: "Welcome to the Program",
     href: "/welcome",
     icon: DoorOpen
   },
@@ -37,7 +37,7 @@ export const navigationItems = [
     icon: ShieldCheck
   },
   {
-    title: "Recruiting Command",
+    title: "Recruiting Command Center",
     href: "/recruiting-command-center",
     icon: ClipboardList
   },

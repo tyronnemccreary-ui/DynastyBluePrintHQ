@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { importMappings } from "@/data/import-mapping";
 import { ScreenshotUploader } from "@/components/import/ScreenshotUploader";
 import { Card } from "@/components/ui/card";
@@ -10,6 +10,17 @@ import type { ScreenshotUpload } from "@/types/import";
 
 export default function ScreenshotImportPage() {
   const [uploads, setUploads] = useState<ScreenshotUpload[]>([]);
+  const uploadsRef = useRef<ScreenshotUpload[]>(uploads);
+
+  useEffect(() => {
+    uploadsRef.current = uploads;
+  }, [uploads]);
+
+  useEffect(() => {
+    return () => {
+      uploadsRef.current.forEach((upload) => URL.revokeObjectURL(upload.previewUrl));
+    };
+  }, []);
 
   return (
     <div className="space-y-6">

@@ -36,10 +36,10 @@ export function RecommendationCard({
           label="Recommendation"
           value={recommendation.recommendation}
         />
-        <RecommendationSection label="Why" value={recommendation.reason} />
+        <RecommendationSection label="Reason" value={recommendation.reason} />
         <div>
           <p className="text-xs font-medium uppercase tracking-[0.16em] text-blueprint-300">
-            What Happens If Ignored
+            Tradeoff
           </p>
           <ul className="mt-2 space-y-2 text-sm leading-6 text-blueprint-100">
             {recommendation.tradeoffs.map((tradeoff) => (
@@ -48,7 +48,7 @@ export function RecommendationCard({
           </ul>
         </div>
         <RecommendationSection
-          label="Expected Benefit"
+          label="Expected Outcome"
           value={recommendation.expectedOutcome}
         />
       </div>

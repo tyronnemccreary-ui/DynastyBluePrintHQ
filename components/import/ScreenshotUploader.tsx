@@ -1,7 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import { ChangeEvent, DragEvent, useState } from "react";
+import {
+  ChangeEvent,
+  Dispatch,
+  DragEvent,
+  SetStateAction,
+  useState
+} from "react";
 import { ImagePlus, Trash2, UploadCloud } from "lucide-react";
 import { screenshotCategories } from "@/data/import-mapping";
 import { Button } from "@/components/ui/button";
@@ -16,7 +22,7 @@ import { cn } from "@/utils/cn";
 
 type ScreenshotUploaderProps = {
   uploads: ScreenshotUpload[];
-  onUploadsChange: (uploads: ScreenshotUpload[]) => void;
+  onUploadsChange: Dispatch<SetStateAction<ScreenshotUpload[]>>;
 };
 
 export function ScreenshotUploader({
@@ -25,9 +31,16 @@ export function ScreenshotUploader({
 }: ScreenshotUploaderProps) {
   const [category, setCategory] = useState<ScreenshotCategory>("Team Overview");
   const [isDragging, setIsDragging] = useState(false);
+  const [lastUploadCount, setLastUploadCount] = useState(0);
 
   function addFiles(files: FileList | File[]) {
     const imageFiles = Array.from(files).filter((file) => file.type.startsWith("image/"));
+
+    if (imageFiles.length === 0) {
+      setLastUploadCount(0);
+      return;
+    }
+
     const nextUploads = imageFiles.map((file) => ({
       id: `${file.name}-${file.lastModified}-${crypto.randomUUID()}`,
       fileName: file.name,
@@ -36,7 +49,8 @@ export function ScreenshotUploader({
       previewUrl: URL.createObjectURL(file)
     }));
 
-    onUploadsChange([...uploads, ...nextUploads]);
+    setLastUploadCount(nextUploads.length);
+    onUploadsChange((currentUploads) => [...currentUploads, ...nextUploads]);
   }
 
   function handleFileChange(event: ChangeEvent<HTMLInputElement>) {
@@ -59,12 +73,14 @@ export function ScreenshotUploader({
       URL.revokeObjectURL(target.previewUrl);
     }
 
-    onUploadsChange(uploads.filter((upload) => upload.id !== id));
+    onUploadsChange((currentUploads) =>
+      currentUploads.filter((upload) => upload.id !== id)
+    );
   }
 
   function advanceStatus(id: string) {
-    onUploadsChange(
-      uploads.map((upload) =>
+    onUploadsChange((currentUploads) =>
+      currentUploads.map((upload) =>
         upload.id === id
           ? {
               ...upload,
@@ -82,9 +98,16 @@ export function ScreenshotUploader({
           <StatusBadge>Upload</StatusBadge>
           <h2 className="mt-4 text-xl font-semibold text-white">Screenshot Intake</h2>
           <p className="mt-2 text-sm leading-6 text-blueprint-200">
-            Store screenshots in local UI state for now. OCR and data extraction will be added in a
-            future sprint.
+            Select one image or a full batch. The selected category applies to every screenshot in
+            that upload.
           </p>
+          <div className="mt-4 rounded-md border border-gold-400/25 bg-gold-400/10 p-4">
+            <StatusBadge tone="attention">Local Only</StatusBadge>
+            <p className="mt-3 text-sm leading-6 text-blueprint-100">
+              Uploaded screenshots are stored only in this browser session for now. Refreshing or
+              closing the page may clear the import queue until upload persistence is added.
+            </p>
+          </div>
         </div>
 
         <label className="mt-6 block">
@@ -125,18 +148,30 @@ export function ScreenshotUploader({
           />
           <UploadCloud className="h-10 w-10 text-turf-400" aria-hidden="true" />
           <p className="mt-4 text-base font-semibold text-white">Drop screenshots here</p>
-          <p className="mt-2 text-sm text-blueprint-200">or select files from your computer</p>
+          <p className="mt-2 text-sm text-blueprint-200">
+            Upload multiple roster screenshots at once.
+          </p>
           <Button className="mt-5 gap-2">
             <ImagePlus className="h-4 w-4" aria-hidden="true" />
             Select Images
           </Button>
+          {lastUploadCount > 0 ? (
+            <p className="mt-4 text-xs font-semibold uppercase tracking-[0.16em] text-turf-400">
+              Added {lastUploadCount} screenshot{lastUploadCount === 1 ? "" : "s"}
+            </p>
+          ) : null}
         </label>
       </Card>
 
       <Card className="p-6">
         <div className="mb-5">
           <StatusBadge>Import Queue</StatusBadge>
-          <h2 className="mt-4 text-xl font-semibold text-white">Uploaded Screenshots</h2>
+          <h2 className="mt-4 text-xl font-semibold text-white">
+            Uploaded Screenshots
+            {uploads.length > 0 ? (
+              <span className="text-blueprint-300"> ({uploads.length})</span>
+            ) : null}
+          </h2>
         </div>
 
         {uploads.length === 0 ? (
