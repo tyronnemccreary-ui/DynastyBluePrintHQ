@@ -11,6 +11,7 @@ export type ProgramProfile = {
   coachName: string;
   coachRole: CoachRole;
   createdAt: string;
+  updatedAt?: string;
 };
 
 export const coachRoleLabels: Record<CoachRole, string> = {

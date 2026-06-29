@@ -4,6 +4,7 @@ import {
   DoorOpen,
   FileStack,
   Handshake,
+  Images,
   LayoutDashboard,
   ShieldCheck,
   UsersRound
@@ -49,5 +50,10 @@ export const navigationItems = [
     title: "Staff Management",
     href: "/staff-management",
     icon: UsersRound
+  },
+  {
+    title: "Screenshot Import",
+    href: "/screenshot-import",
+    icon: Images
   }
 ] as const;

@@ -5,6 +5,7 @@ import { ArrowRight, Building2 } from "lucide-react";
 import { ADExpectationsCard } from "@/components/program/ADExpectationsCard";
 import { BlueprintSnapshotCard } from "@/components/program/BlueprintSnapshotCard";
 import { FacilitiesCard } from "@/components/program/FacilitiesCard";
+import { PersistenceStatusCard } from "@/components/program/PersistenceStatusCard";
 import { ProgramHeader } from "@/components/program/ProgramHeader";
 import { TeamIdentityCard } from "@/components/program/TeamIdentityCard";
 import { Card } from "@/components/ui/card";
@@ -47,6 +48,8 @@ export default function ProgramOfficePage() {
             </Link>
           </div>
         </Card>
+
+        <PersistenceStatusCard profile={null} />
       </div>
     );
   }
@@ -71,6 +74,7 @@ export default function ProgramOfficePage() {
         <div className="space-y-6">
           <ADExpectationsCard school={programProfile.school} />
           <BlueprintSnapshotCard school={programProfile.school} />
+          <PersistenceStatusCard profile={programProfile} />
         </div>
       </div>
     </div>

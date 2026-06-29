@@ -2,19 +2,15 @@
 
 import Link from "next/link";
 import { ArrowRight, LayoutDashboard } from "lucide-react";
-import {
-  mockExecutiveBriefing,
-  mockProgramHealth
-} from "@/data/mock-recommendations";
-import { RecommendationList } from "@/components/operations/RecommendationList";
-import { ExecutiveBriefingCard } from "@/components/war-room/ExecutiveBriefingCard";
+import { mockProgramHealth } from "@/data/mock-recommendations";
+import { WeeklyOperationsBriefing } from "@/components/operations/WeeklyOperationsBriefing";
 import { ProgramHealthCard } from "@/components/war-room/ProgramHealthCard";
 import { ProgramStatusCard } from "@/components/war-room/ProgramStatusCard";
 import { QuickActions } from "@/components/war-room/QuickActions";
 import { Card } from "@/components/ui/card";
 import { SectionHeader } from "@/components/ui/section-header";
 import { StatusBadge } from "@/components/ui/status-badge";
-import { getTopFootballOperationsIntelligence } from "@/services/football-operations-engine";
+import { getWeeklyOperationsBriefing } from "@/services/weekly-briefing";
 import { useProgramStore } from "@/store/program-store";
 
 export default function WarRoomPage() {
@@ -56,7 +52,7 @@ export default function WarRoomPage() {
     );
   }
 
-  const recommendations = getTopFootballOperationsIntelligence({
+  const briefing = getWeeklyOperationsBriefing({
     programProfile
   });
 
@@ -74,9 +70,7 @@ export default function WarRoomPage() {
         <ProgramHealthCard health={mockProgramHealth} />
       </div>
 
-      <ExecutiveBriefingCard briefing={mockExecutiveBriefing} />
-
-      <RecommendationList recommendations={recommendations} />
+      <WeeklyOperationsBriefing briefing={briefing} />
 
       <QuickActions />
     </div>
