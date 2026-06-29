@@ -56,7 +56,8 @@ export function quarterbackRecruitingRule(
       "Ignoring this need may force you into the Transfer Portal later."
     ],
     expectedOutcome:
-      "Adding a young quarterback now creates development time and protects long-term roster stability."
+      "Adding a young quarterback now creates development time and protects long-term roster stability.",
+    impactedDepartment: "Recruiting Command Center"
   };
 }
 
@@ -82,7 +83,8 @@ export function facilitiesInvestmentRule(school: School): FootballRecommendation
       "Delaying upgrades can limit development gains for multiple recruiting classes."
     ],
     expectedOutcome:
-      "Improved facilities should support stronger player development and make future roster building more stable."
+      "Improved facilities should support stronger player development and make future roster building more stable.",
+    impactedDepartment: "Program Office"
   };
 }
 
@@ -109,7 +111,8 @@ export function offensiveLineDepthRule(
       "Waiting too long can leave the roster dependent on emergency portal additions."
     ],
     expectedOutcome:
-      "Adding offensive line depth now protects the offense from short-term injuries and future graduation losses."
+      "Adding offensive line depth now protects the offense from short-term injuries and future graduation losses.",
+    impactedDepartment: "Recruiting Command Center"
   };
 }
 
@@ -132,7 +135,8 @@ export function prestigeInvestmentRule(school: School): FootballRecommendation |
       "Facilities upgrades are still important, but they should not outrank talent access yet."
     ],
     expectedOutcome:
-      "Improved recruiting focus should help raise the talent floor and make later facility investments more valuable."
+      "Improved recruiting focus should help raise the talent floor and make later facility investments more valuable.",
+    impactedDepartment: "Blueprint Planner"
   };
 }
 
@@ -155,7 +159,8 @@ export function staffImprovementRule(staffRating: string): FootballRecommendatio
       "Keeping a weaker staff may reduce the value of strong recruiting classes."
     ],
     expectedOutcome:
-      "Improved coordinator talent should raise development consistency and make roster strengths easier to convert into wins."
+      "Improved coordinator talent should raise development consistency and make roster strengths easier to convert into wins.",
+    impactedDepartment: "Staff Management"
   };
 }
 
@@ -175,7 +180,8 @@ export function highNeedPositionRule(group: PositionGroup): FootballRecommendati
       "Committing resources here can slow movement at healthier position groups.",
       "Waiting may force a more expensive Transfer Portal solution later."
     ],
-    expectedOutcome: `Improving ${group.position} depth should reduce future roster volatility and protect program standards.`
+    expectedOutcome: `Improving ${group.position} depth should reduce future roster volatility and protect program standards.`,
+    impactedDepartment: "Roster Intelligence"
   };
 }
 
@@ -201,6 +207,7 @@ export function transferPortalFallbackRule(
       "Using the portal too early can reduce long-term roster continuity."
     ],
     expectedOutcome:
-      "Maintaining a portal contingency gives the staff a second path if the high school recruiting board does not close."
+      "Maintaining a portal contingency gives the staff a second path if the high school recruiting board does not close.",
+    impactedDepartment: "Transfer Portal"
   };
 }

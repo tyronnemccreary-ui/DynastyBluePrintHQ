@@ -4,7 +4,8 @@ export type RecommendationCategory =
   | "Staff"
   | "Facilities"
   | "Roster"
-  | "Transfer Portal";
+  | "Transfer Portal"
+  | "Program Health";
 
 export type RecommendationPriority = "Critical" | "High" | "Medium" | "Low";
 
@@ -17,6 +18,7 @@ export type FootballRecommendation = {
   reason: string;
   tradeoffs: string[];
   expectedOutcome: string;
+  impactedDepartment: string;
 };
 
 export type ProgramHealth = {
