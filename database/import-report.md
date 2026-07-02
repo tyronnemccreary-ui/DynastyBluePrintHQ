@@ -1,0 +1,361 @@
+# CFB27 Master Team Database Import Report
+
+Generated from:
+
+- tools/cfb27-data-builder/output/cfb27-teams.vision-reviewed.json
+
+## Summary
+
+- Import Method: vision-reviewed
+- Total Teams Imported: 117
+- Total Teams Flagged: 212
+- Missing Teams: 0
+- Validation Errors: 0
+- Successful Imports: 117
+
+## Validation Errors
+
+- None
+
+## Teams Needing Review
+
+- AirForce (airforce): Record imported from vision-reviewed path but is not marked verified.
+- AirForce (airforce): Record contains Not Available values that need future review.
+- App State (app-state): Record imported from vision-reviewed path but is not marked verified.
+- App State (app-state): Record contains Not Available values that need future review.
+- Arkansas St (arkansas-st): Record imported from vision-reviewed path but is not marked verified.
+- Arkansas St (arkansas-st): Record contains Not Available values that need future review.
+- Central Michigan (central-michigan): Record imported from vision-reviewed path but is not marked verified.
+- Central Michigan (central-michigan): Record contains Not Available values that need future review.
+- Colorado St (colorado-st): Record imported from vision-reviewed path but is not marked verified.
+- Colorado St (colorado-st): Record contains Not Available values that need future review.
+- Connecticut (connecticut): Record imported from vision-reviewed path but is not marked verified.
+- Connecticut (connecticut): Record contains Not Available values that need future review.
+- Costal Carolina (costal-carolina): Record imported from vision-reviewed path but is not marked verified.
+- Costal Carolina (costal-carolina): Record contains Not Available values that need future review.
+- Delware State (delware-state): Record imported from vision-reviewed path but is not marked verified.
+- Delware State (delware-state): Record contains Not Available values that need future review.
+- FIU (fiu): Record imported from vision-reviewed path but is not marked verified.
+- FIU (fiu): Record contains Not Available values that need future review.
+- FLA Alantic (fla-alantic): Record imported from vision-reviewed path but is not marked verified.
+- FLA Alantic (fla-alantic): Record contains Not Available values that need future review.
+- Fresno St (fresno-st): Record imported from vision-reviewed path but is not marked verified.
+- Fresno St (fresno-st): Record contains Not Available values that need future review.
+- GA Southern (ga-southern): Record imported from vision-reviewed path but is not marked verified.
+- GA Southern (ga-southern): Record contains Not Available values that need future review.
+- Hawaii (hawaii): Record imported from vision-reviewed path but is not marked verified.
+- Hawaii (hawaii): Record contains Not Available values that need future review.
+- James Madisun (james-madisun): Record imported from vision-reviewed path but is not marked verified.
+- James Madisun (james-madisun): Record contains Not Available values that need future review.
+- Jax State (jax-state): Record imported from vision-reviewed path but is not marked verified.
+- Jax State (jax-state): Record contains Not Available values that need future review.
+- Kennesaw St (kennesaw-st): Record imported from vision-reviewed path but is not marked verified.
+- Kennesaw St (kennesaw-st): Record contains Not Available values that need future review.
+- Liberty (liberty): Record imported from vision-reviewed path but is not marked verified.
+- Liberty (liberty): Record contains Not Available values that need future review.
+- Lousiana (lousiana): Record imported from vision-reviewed path but is not marked verified.
+- Lousiana (lousiana): Record contains Not Available values that need future review.
+- Lousiana Tech (lousiana-tech): Record imported from vision-reviewed path but is not marked verified.
+- Lousiana Tech (lousiana-tech): Record contains Not Available values that need future review.
+- Marshall (marshall): Record imported from vision-reviewed path but is not marked verified.
+- Marshall (marshall): Record contains Not Available values that need future review.
+- Miami Ohio (miami-ohio): Record imported from vision-reviewed path but is not marked verified.
+- Miami Ohio (miami-ohio): Record contains Not Available values that need future review.
+- Neveda (neveda): Record imported from vision-reviewed path but is not marked verified.
+- Neveda (neveda): Record contains Not Available values that need future review.
+- New Mexico St (new-mexico-st): Record imported from vision-reviewed path but is not marked verified.
+- New Mexico St (new-mexico-st): Record contains Not Available values that need future review.
+- New Mexico (new-mexico): Record imported from vision-reviewed path but is not marked verified.
+- New Mexico (new-mexico): Record contains Not Available values that need future review.
+- NIU (niu): Record imported from vision-reviewed path but is not marked verified.
+- NIU (niu): Record contains Not Available values that need future review.
+- North Dakota St (north-dakota-st): Record imported from vision-reviewed path but is not marked verified.
+- North Dakota St (north-dakota-st): Record contains Not Available values that need future review.
+- North Texas (north-texas): Record imported from vision-reviewed path but is not marked verified.
+- North Texas (north-texas): Record contains Not Available values that need future review.
+- Ohio (ohio): Record imported from vision-reviewed path but is not marked verified.
+- Ohio (ohio): Record contains Not Available values that need future review.
+- Old Dominion (old-dominion): Record imported from vision-reviewed path but is not marked verified.
+- Old Dominion (old-dominion): Record contains Not Available values that need future review.
+- Rice (rice): Record imported from vision-reviewed path but is not marked verified.
+- Rice (rice): Record contains Not Available values that need future review.
+- Sac State (sac-state): Record imported from vision-reviewed path but is not marked verified.
+- Sac State (sac-state): Record contains Not Available values that need future review.
+- San Diego St (san-diego-st): Record imported from vision-reviewed path but is not marked verified.
+- San Diego St (san-diego-st): Record contains Not Available values that need future review.
+- San Jose St (san-jose-st): Record imported from vision-reviewed path but is not marked verified.
+- San Jose St (san-jose-st): Record contains Not Available values that need future review.
+- Temple (temple): Record imported from vision-reviewed path but is not marked verified.
+- Temple (temple): Record contains Not Available values that need future review.
+- Texas St (texas-st): Record imported from vision-reviewed path but is not marked verified.
+- Texas St (texas-st): Record contains Not Available values that need future review.
+- Toledo (toledo): Record imported from vision-reviewed path but is not marked verified.
+- Toledo (toledo): Record contains Not Available values that need future review.
+- Troy (troy): Record imported from vision-reviewed path but is not marked verified.
+- Troy (troy): Record contains Not Available values that need future review.
+- Tulsa (tulsa): Record imported from vision-reviewed path but is not marked verified.
+- Tulsa (tulsa): Record contains Not Available values that need future review.
+- UAB (uab): Record imported from vision-reviewed path but is not marked verified.
+- UAB (uab): Record contains Not Available values that need future review.
+- UNLV (unlv): Record imported from vision-reviewed path but is not marked verified.
+- UNLV (unlv): Record contains Not Available values that need future review.
+- USF (usf): Record imported from vision-reviewed path but is not marked verified.
+- USF (usf): Record contains Not Available values that need future review.
+- Utah St (utah-st): Record imported from vision-reviewed path but is not marked verified.
+- Utah St (utah-st): Record contains Not Available values that need future review.
+- UTSA (utsa): Record imported from vision-reviewed path but is not marked verified.
+- UTSA (utsa): Record contains Not Available values that need future review.
+- W. Kentucky (w-kentucky): Record imported from vision-reviewed path but is not marked verified.
+- W. Kentucky (w-kentucky): Record contains Not Available values that need future review.
+- W. Michigan (w-michigan): Record imported from vision-reviewed path but is not marked verified.
+- W. Michigan (w-michigan): Record contains Not Available values that need future review.
+- Wyoming (wyoming): Record imported from vision-reviewed path but is not marked verified.
+- Wyoming (wyoming): Record contains Not Available values that need future review.
+- Arizona (arizona): Record imported from vision-reviewed path but is not marked verified.
+- Arizona (arizona): Record contains Not Available values that need future review.
+- Army (army): Record imported from vision-reviewed path but is not marked verified.
+- Army (army): Record contains Not Available values that need future review.
+- Baylor (baylor): Record imported from vision-reviewed path but is not marked verified.
+- Baylor (baylor): Record contains Not Available values that need future review.
+- Boise St (boise-st): Record imported from vision-reviewed path but is not marked verified.
+- Boise St (boise-st): Record contains Not Available values that need future review.
+- Boston College (boston-college): Record imported from vision-reviewed path but is not marked verified.
+- Boston College (boston-college): Record contains Not Available values that need future review.
+- Cincinnati (cincinnati): Record imported from vision-reviewed path but is not marked verified.
+- Cincinnati (cincinnati): Record contains Not Available values that need future review.
+- East Carolina (east-carolina): Record imported from vision-reviewed path but is not marked verified.
+- East Carolina (east-carolina): Record contains Not Available values that need future review.
+- Iowa St (iowa-st): Record imported from vision-reviewed path but is not marked verified.
+- Iowa St (iowa-st): Record contains Not Available values that need future review.
+- Kansas State (kansas-state): Record imported from vision-reviewed path but is not marked verified.
+- Kansas State (kansas-state): Record contains Not Available values that need future review.
+- Kansas (kansas): Record imported from vision-reviewed path but is not marked verified.
+- Kansas (kansas): Record contains Not Available values that need future review.
+- Maryland (maryland): Record imported from vision-reviewed path but is not marked verified.
+- Maryland (maryland): Record contains Not Available values that need future review.
+- Memphis (memphis): Record imported from vision-reviewed path but is not marked verified.
+- Memphis (memphis): Record contains Not Available values that need future review.
+- Mississippi St (mississippi-st): Record imported from vision-reviewed path but is not marked verified.
+- Mississippi St (mississippi-st): Record contains Not Available values that need future review.
+- Navy (navy): Record imported from vision-reviewed path but is not marked verified.
+- Navy (navy): Record contains Not Available values that need future review.
+- North Carolina (north-carolina): Record imported from vision-reviewed path but is not marked verified.
+- North Carolina (north-carolina): Record contains Not Available values that need future review.
+- Northwestern (northwestern): Record imported from vision-reviewed path but is not marked verified.
+- Northwestern (northwestern): Record contains Not Available values that need future review.
+- Oregon St (oregon-st): Record imported from vision-reviewed path but is not marked verified.
+- Oregon St (oregon-st): Record contains Not Available values that need future review.
+- Purdue (purdue): Record imported from vision-reviewed path but is not marked verified.
+- Purdue (purdue): Record contains Not Available values that need future review.
+- Rutgers (rutgers): Record imported from vision-reviewed path but is not marked verified.
+- Rutgers (rutgers): Record contains Not Available values that need future review.
+- Tulane (tulane): Record imported from vision-reviewed path but is not marked verified.
+- Tulane (tulane): Record contains Not Available values that need future review.
+- UCF (ucf): Record imported from vision-reviewed path but is not marked verified.
+- UCF (ucf): Record contains Not Available values that need future review.
+- Vanderbilt (vanderbilt): Record imported from vision-reviewed path but is not marked verified.
+- Vanderbilt (vanderbilt): Record contains Not Available values that need future review.
+- Wake Forest (wake-forest): Record imported from vision-reviewed path but is not marked verified.
+- Wake Forest (wake-forest): Record contains Not Available values that need future review.
+- Washington St (washington-st): Record imported from vision-reviewed path but is not marked verified.
+- Washington St (washington-st): Record contains Not Available values that need future review.
+- Arizona St (arizona-st): Record contains Not Available values that need future review.
+- Arkansas (arkansas): Record contains Not Available values that need future review.
+- Auburn (auburn): Record contains Not Available values that need future review.
+- California (california): Record contains Not Available values that need future review.
+- Colorado (colorado): Record contains Not Available values that need future review.
+- Duke (duke): Record imported from vision-reviewed path but is not marked verified.
+- Duke (duke): Record contains Not Available values that need future review.
+- Florida St (florida-st): Record imported from vision-reviewed path but is not marked verified.
+- Florida St (florida-st): Record contains Not Available values that need future review.
+- Georgia Tech (georgia-tech): Record imported from vision-reviewed path but is not marked verified.
+- Georgia Tech (georgia-tech): Record contains Not Available values that need future review.
+- Houston (houston): Record imported from vision-reviewed path but is not marked verified.
+- Houston (houston): Record contains Not Available values that need future review.
+- Illinois (illinois): Record imported from vision-reviewed path but is not marked verified.
+- Illinois (illinois): Record contains Not Available values that need future review.
+- Iowa (iowa): Record imported from vision-reviewed path but is not marked verified.
+- Iowa (iowa): Record contains Not Available values that need future review.
+- Kentucky (kentucky): Record imported from vision-reviewed path but is not marked verified.
+- Kentucky (kentucky): Record contains Not Available values that need future review.
+- Louisville (louisville): Record imported from vision-reviewed path but is not marked verified.
+- Louisville (louisville): Record contains Not Available values that need future review.
+- Michigan St (michigan-st): Record imported from vision-reviewed path but is not marked verified.
+- Michigan St (michigan-st): Record contains Not Available values that need future review.
+- Minnesota (minnesota): Record imported from vision-reviewed path but is not marked verified.
+- Minnesota (minnesota): Record contains Not Available values that need future review.
+- MIssouri (missouri): Record imported from vision-reviewed path but is not marked verified.
+- MIssouri (missouri): Record contains Not Available values that need future review.
+- NC State (nc-state): Record imported from vision-reviewed path but is not marked verified.
+- NC State (nc-state): Record contains Not Available values that need future review.
+- Oklahoma St (oklahoma-st): Record imported from vision-reviewed path but is not marked verified.
+- Oklahoma St (oklahoma-st): Record contains Not Available values that need future review.
+- Pittsburgh (pittsburgh): Record imported from vision-reviewed path but is not marked verified.
+- Pittsburgh (pittsburgh): Record contains Not Available values that need future review.
+- SMU (smu): Record imported from vision-reviewed path but is not marked verified.
+- SMU (smu): Record contains Not Available values that need future review.
+- South Carolina (south-carolina): Record imported from vision-reviewed path but is not marked verified.
+- South Carolina (south-carolina): Record contains Not Available values that need future review.
+- Stanford (stanford): Record imported from vision-reviewed path but is not marked verified.
+- Stanford (stanford): Record contains Not Available values that need future review.
+- Syracuse (syracuse): Record imported from vision-reviewed path but is not marked verified.
+- Syracuse (syracuse): Record contains Not Available values that need future review.
+- TCU (tcu): Record imported from vision-reviewed path but is not marked verified.
+- TCU (tcu): Record contains Not Available values that need future review.
+- Texas Tech (texas-tech): Record imported from vision-reviewed path but is not marked verified.
+- Texas Tech (texas-tech): Record contains Not Available values that need future review.
+- UCLA (ucla): Record imported from vision-reviewed path but is not marked verified.
+- UCLA (ucla): Record contains Not Available values that need future review.
+- Utah (utah): Record imported from vision-reviewed path but is not marked verified.
+- Utah (utah): Record contains Not Available values that need future review.
+- Virgina (virgina): Record imported from vision-reviewed path but is not marked verified.
+- Virgina (virgina): Record contains Not Available values that need future review.
+- Virginia Tech (virginia-tech): Record imported from vision-reviewed path but is not marked verified.
+- Virginia Tech (virginia-tech): Record contains Not Available values that need future review.
+- Wisconsin (wisconsin): Record imported from vision-reviewed path but is not marked verified.
+- Wisconsin (wisconsin): Record contains Not Available values that need future review.
+- LSU (lsu): Record contains Not Available values that need future review.
+- Miami (miami): Record contains Not Available values that need future review.
+- Michigan (michigan): Record contains Not Available values that need future review.
+- Nebraska (nebraska): Record contains Not Available values that need future review.
+- Notre Dame (notre-dame): Record contains Not Available values that need future review.
+- Oklahoma (oklahoma): Record contains Not Available values that need future review.
+- Ole Miss (ole-miss): Record contains Not Available values that need future review.
+- Oregon (oregon): Record contains Not Available values that need future review.
+- Penn St (penn-st): Record contains Not Available values that need future review.
+- Tennessee (tennessee): Record contains Not Available values that need future review.
+- Texas A&M (texas-aandm): Record contains Not Available values that need future review.
+- Texas (texas): Record contains Not Available values that need future review.
+- USC (usc): Record contains Not Available values that need future review.
+- Washington (washington): Record contains Not Available values that need future review.
+- Alabama (alabama): Record contains Not Available values that need future review.
+- Georgia (georgia): Record contains Not Available values that need future review.
+- Ohio State (ohio-state): Record contains Not Available values that need future review.
+
+## Missing Teams
+
+- None reported by source data
+
+## Successful Imports
+
+- AirForce
+- App State
+- Arkansas St
+- Central Michigan
+- Colorado St
+- Connecticut
+- Costal Carolina
+- Delware State
+- FIU
+- FLA Alantic
+- Fresno St
+- GA Southern
+- Hawaii
+- James Madisun
+- Jax State
+- Kennesaw St
+- Liberty
+- Lousiana
+- Lousiana Tech
+- Marshall
+- Miami Ohio
+- Neveda
+- New Mexico St
+- New Mexico
+- NIU
+- North Dakota St
+- North Texas
+- Ohio
+- Old Dominion
+- Rice
+- Sac State
+- San Diego St
+- San Jose St
+- Temple
+- Texas St
+- Toledo
+- Troy
+- Tulsa
+- UAB
+- UNLV
+- USF
+- Utah St
+- UTSA
+- W. Kentucky
+- W. Michigan
+- Wyoming
+- Arizona
+- Army
+- Baylor
+- Boise St
+- Boston College
+- Cincinnati
+- East Carolina
+- Iowa St
+- Kansas State
+- Kansas
+- Maryland
+- Memphis
+- Mississippi St
+- Navy
+- North Carolina
+- Northwestern
+- Oregon St
+- Purdue
+- Rutgers
+- Tulane
+- UCF
+- Vanderbilt
+- Wake Forest
+- Washington St
+- Arizona St
+- Arkansas
+- Auburn
+- California
+- Colorado
+- Duke
+- Florida St
+- Georgia Tech
+- Houston
+- Illinois
+- Iowa
+- Kentucky
+- Louisville
+- Michigan St
+- Minnesota
+- MIssouri
+- NC State
+- Oklahoma St
+- Pittsburgh
+- SMU
+- South Carolina
+- Stanford
+- Syracuse
+- TCU
+- Texas Tech
+- UCLA
+- Utah
+- Virgina
+- Virginia Tech
+- Wisconsin
+- LSU
+- Miami
+- Michigan
+- Nebraska
+- Notre Dame
+- Oklahoma
+- Ole Miss
+- Oregon
+- Penn St
+- Tennessee
+- Texas A&M
+- Texas
+- USC
+- Washington
+- Alabama
+- Georgia
+- Ohio State
+
+## Review Notes
+
+This report was generated from externally reviewed Vision data. Missing values remain "Not Available"; the importer does not invent facts.

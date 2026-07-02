@@ -8,6 +8,7 @@ import {
   oklahomaStaffSummary,
   oklahomaSupportStaff
 } from "@/data/mock-staff";
+import { DepartmentActivationCard } from "@/components/departments/DepartmentActivationCard";
 import { CoordinatorTable } from "@/components/staff/CoordinatorTable";
 import { HiringRecommendationCard } from "@/components/staff/HiringRecommendationCard";
 import { StaffFitSummary } from "@/components/staff/StaffFitSummary";
@@ -17,6 +18,7 @@ import { Card } from "@/components/ui/card";
 import { SectionHeader } from "@/components/ui/section-header";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { useProgramStore } from "@/store/program-store";
+import { getDepartmentActivation } from "@/utils/department-activation";
 import { evaluateCoordinators } from "@/utils/staff-analysis";
 
 export default function StaffManagementPage() {
@@ -55,6 +57,23 @@ export default function StaffManagementPage() {
             </Link>
           </div>
         </Card>
+      </div>
+    );
+  }
+
+  const activation = getDepartmentActivation("staff-management", programProfile);
+
+  if (activation?.status !== "Ready") {
+    return (
+      <div className="space-y-6">
+        <SectionHeader
+          eyebrow="Staff Office"
+          title="Staff Management"
+          description={`Staff Management is prepared for ${programProfile.school.name}, but it needs coaching staff data before live coordinator evaluation begins.`}
+          status={activation?.status ?? "Needs Activation"}
+        />
+
+        {activation ? <DepartmentActivationCard department={activation} /> : null}
       </div>
     );
   }

@@ -17,7 +17,7 @@ const quickActions = [
     icon: BriefcaseBusiness
   },
   {
-    title: "Blueprint Planner",
+    title: "Football Operations Budget",
     href: "/blueprint-planner",
     icon: FileStack
   },

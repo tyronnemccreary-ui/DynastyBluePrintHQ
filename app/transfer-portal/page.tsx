@@ -7,6 +7,7 @@ import {
   oklahomaTransferSummary,
   oklahomaTransferTargets
 } from "@/data/mock-transfers";
+import { DepartmentActivationCard } from "@/components/departments/DepartmentActivationCard";
 import { TransferFitCard } from "@/components/transfer/TransferFitCard";
 import { TransferOverviewCard } from "@/components/transfer/TransferOverviewCard";
 import { TransferSummaryCard } from "@/components/transfer/TransferSummaryCard";
@@ -15,6 +16,7 @@ import { Card } from "@/components/ui/card";
 import { SectionHeader } from "@/components/ui/section-header";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { useProgramStore } from "@/store/program-store";
+import { getDepartmentActivation } from "@/utils/department-activation";
 import { evaluateTransfers } from "@/utils/transfer-analysis";
 
 export default function TransferPortalPage() {
@@ -53,6 +55,27 @@ export default function TransferPortalPage() {
             </Link>
           </div>
         </Card>
+      </div>
+    );
+  }
+
+  const activation = getDepartmentActivation("transfer-portal", programProfile);
+
+  if (activation?.status !== "Ready") {
+    return (
+      <div className="space-y-6">
+        <SectionHeader
+          eyebrow="Portal Evaluation"
+          title="Transfer Portal"
+          description={
+            activation?.status === "Season Locked"
+              ? `The Transfer Portal is prepared for ${programProfile.school.name}, but it opens when the dynasty reaches offseason.`
+              : `The Transfer Portal is open for ${programProfile.school.name}, but it needs portal data before live target evaluation begins.`
+          }
+          status={activation?.status ?? "Needs Activation"}
+        />
+
+        {activation ? <DepartmentActivationCard department={activation} /> : null}
       </div>
     );
   }

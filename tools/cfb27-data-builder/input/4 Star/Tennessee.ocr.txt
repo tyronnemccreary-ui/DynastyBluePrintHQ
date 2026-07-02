@@ -1,0 +1,14 @@
+OCR Status: Failed
+OCR Error: The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)
+Review Required: Yes
+School: Tennessee
+Team Prestige: 4
+Conference: Not Available
+Mascot: Not Available
+Overall: Not Available
+Offense: Not Available
+Defense: Not Available
+Dynasty Points Total: Not Available
+Dynasty Points Allocated: Not Available
+Dynasty Points Used: Not Available
+Dynasty Points Available: Not Available

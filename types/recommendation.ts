@@ -16,7 +16,9 @@ export type FootballRecommendation = {
   title: string;
   recommendation: string;
   reason: string;
+  investment?: string;
   tradeoffs: string[];
+  expectedBenefit?: string;
   expectedOutcome: string;
   impactedDepartment: string;
 };

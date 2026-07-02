@@ -1,4 +1,5 @@
 import { isSupabaseConfigured, supabase } from "@/lib/supabase";
+import { ensureProgramOperationsProfile } from "@/program/services/program-engine";
 import type { ProgramProfile } from "@/types/program";
 import type {
   PersistenceMode,
@@ -85,7 +86,7 @@ export async function loadMostRecentProgramProfile(): Promise<ProgramLoadResult>
 }
 
 function mapProgramProfileRow(row: ProgramProfileRow): ProgramProfile {
-  return {
+  return ensureProgramOperationsProfile({
     id: row.id,
     school: row.school,
     coachName: row.coach_name,
@@ -93,5 +94,5 @@ function mapProgramProfileRow(row: ProgramProfileRow): ProgramProfile {
     dynastyType: row.dynasty_type,
     createdAt: row.created_at,
     updatedAt: row.updated_at
-  };
+  });
 }

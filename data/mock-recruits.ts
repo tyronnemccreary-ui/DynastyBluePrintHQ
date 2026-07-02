@@ -21,8 +21,10 @@ export const oklahomaTargetRecruits: TargetRecruit[] = [
     starRating: 4,
     archetype: "Vertical Threat",
     homeState: "Texas",
-    pipelineFit: "Strong",
-    nilExpectation: "Moderate",
+    pipeline: "East Texas",
+    pipelineStrength: "Tier 2",
+    expectedNil: 250,
+    currentOffer: 250,
     teamNeedFit: "High"
   },
   {
@@ -32,8 +34,10 @@ export const oklahomaTargetRecruits: TargetRecruit[] = [
     starRating: 4,
     archetype: "Field General",
     homeState: "Oklahoma",
-    pipelineFit: "Strong",
-    nilExpectation: "High",
+    pipeline: "Oklahoma",
+    pipelineStrength: "Tier 1",
+    expectedNil: 325,
+    currentOffer: 275,
     teamNeedFit: "High"
   },
   {
@@ -43,8 +47,10 @@ export const oklahomaTargetRecruits: TargetRecruit[] = [
     starRating: 4,
     archetype: "Man Coverage",
     homeState: "Louisiana",
-    pipelineFit: "Good",
-    nilExpectation: "Moderate",
+    pipeline: "Louisiana",
+    pipelineStrength: "Tier 3",
+    expectedNil: 225,
+    currentOffer: 225,
     teamNeedFit: "Medium"
   },
   {
@@ -54,8 +60,10 @@ export const oklahomaTargetRecruits: TargetRecruit[] = [
     starRating: 5,
     archetype: "Deep Threat",
     homeState: "Florida",
-    pipelineFit: "Limited",
-    nilExpectation: "High",
+    pipeline: "South Florida",
+    pipelineStrength: "Tier 5",
+    expectedNil: 500,
+    currentOffer: 350,
     teamNeedFit: "Low"
   },
   {
@@ -65,8 +73,10 @@ export const oklahomaTargetRecruits: TargetRecruit[] = [
     starRating: 3,
     archetype: "Power Protector",
     homeState: "Texas",
-    pipelineFit: "Good",
-    nilExpectation: "Low",
+    pipeline: "North Texas",
+    pipelineStrength: "Tier 2",
+    expectedNil: 125,
+    currentOffer: 150,
     teamNeedFit: "Medium"
   }
 ];
@@ -78,7 +88,7 @@ export const oklahomaNILGuidance: NILRecruitingGuidance = {
 };
 
 export const oklahomaPipelineStrategy: PipelineStrategy = {
-  focusAreas: ["Texas", "Oklahoma", "Louisiana", "Selective national five-star targets"],
+  focusAreas: ["Oklahoma", "East Texas", "North Texas", "Louisiana"],
   summary:
     "Protect the regional base while using Oklahoma's brand for selective national swings. Pipeline attention should support roster need, not chase stars in already healthy rooms."
 };

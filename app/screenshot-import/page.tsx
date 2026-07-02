@@ -18,7 +18,11 @@ export default function ScreenshotImportPage() {
 
   useEffect(() => {
     return () => {
-      uploadsRef.current.forEach((upload) => URL.revokeObjectURL(upload.previewUrl));
+      uploadsRef.current.forEach((upload) => {
+        if (upload.previewUrl) {
+          URL.revokeObjectURL(upload.previewUrl);
+        }
+      });
     };
   }, []);
 
@@ -27,7 +31,7 @@ export default function ScreenshotImportPage() {
       <SectionHeader
         eyebrow="Import Foundation"
         title="Screenshot Import"
-        description="Upload Dynasty screenshots so Dynasty Blueprint HQ can prepare your Football Operations data."
+        description="Upload Dynasty screenshots or CSV files so Dynasty Blueprint HQ can prepare your Football Operations data."
         status="Future Ready"
       />
 
@@ -35,11 +39,10 @@ export default function ScreenshotImportPage() {
 
       <Card className="p-6">
         <div className="mb-5">
-          <StatusBadge>Data Mapping Placeholder</StatusBadge>
-          <h2 className="mt-4 text-xl font-semibold text-white">Future Extraction Plan</h2>
+          <StatusBadge>Data Mapping</StatusBadge>
+          <h2 className="mt-4 text-xl font-semibold text-white">Extraction Plan</h2>
           <p className="mt-2 text-sm leading-6 text-blueprint-200">
-            These mappings define what each screenshot type will eventually extract when OCR is
-            added.
+            These mappings define what each import type prepares for Football Operations review.
           </p>
         </div>
 
@@ -56,7 +59,7 @@ export default function ScreenshotImportPage() {
                     {mapping.description}
                   </p>
                 </div>
-                <StatusBadge>Future OCR</StatusBadge>
+                <StatusBadge>Mapped Fields</StatusBadge>
               </div>
               <div className="mt-4 flex flex-wrap gap-2">
                 {mapping.futureFields.map((field) => (

@@ -16,9 +16,22 @@ export function FacilitiesCard({ school }: FacilitiesCardProps) {
       </div>
 
       <div className="grid gap-4 sm:grid-cols-3">
-        <MetricCard label="Facility Tier" value={school.facilities.tier} />
-        <MetricCard label="Facility Grade" value={school.facilities.grade} />
-        <MetricCard label="Equipment Slots" value={`${school.facilities.equipmentSlots}`} />
+        <MetricCard
+          label="Facility Tier"
+          value={school.facilityTier ?? school.facilities?.tier ?? "Not Available"}
+        />
+        <MetricCard
+          label="Facility Grade"
+          value={school.facilities?.grade ?? school.mySchoolGrades.athleticFacilities ?? "Not Available"}
+        />
+        <MetricCard
+          label="Equipment Slots"
+          value={
+            typeof school.facilities?.equipmentSlots === "number"
+              ? `${school.facilities.equipmentSlots}`
+              : "Not Available"
+          }
+        />
       </div>
     </Card>
   );

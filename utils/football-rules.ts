@@ -1,7 +1,4 @@
-import { oklahomaRecruitingOverview, oklahomaTargetRecruits } from "@/data/mock-recruits";
-import { oklahomaMockRoster } from "@/data/mock-roster";
-import { oklahomaStaffOverview } from "@/data/mock-staff";
-import { oklahomaTransferOverview } from "@/data/mock-transfers";
+import type { FootballOperationsIntelligence } from "@/intelligence/types/reports";
 import type { ProgramProfile } from "@/types/program";
 import type {
   FootballRecommendation,
@@ -66,11 +63,12 @@ export function evaluateQuarterbackFuture(
 }
 
 export function evaluateFacilitiesInvestment(
-  profile: ProgramProfile
+  intelligence: FootballOperationsIntelligence
 ): FootballRecommendation | null {
-  const points = profile.school.blueprintSnapshot.availableDynastyPoints;
-
-  if (points <= 0 || !isOperationsGradeBelow(profile.school.facilities.grade, "A")) {
+  if (
+    intelligence.budget.pointsRemaining <= 0 ||
+    !["Watch", "At Risk"].includes(intelligence.facilities.facilitiesHealth)
+  ) {
     return null;
   }
 
@@ -90,6 +88,38 @@ export function evaluateFacilitiesInvestment(
     expectedOutcome:
       "Maintaining facilities protects long-term player growth and supports the program's national standard.",
     impactedDepartment: "Program Office"
+  };
+}
+
+export function evaluateBudgetRecruitingROI(
+  intelligence: FootballOperationsIntelligence
+): FootballRecommendation | null {
+  const highNeedGroup = intelligence.roster.positionGroups.find(
+    (group) => group.needLevel === "High" && ["OL", "QB", "DL", "LB", "CB"].includes(group.position)
+  );
+  const recommendedRecruitingNil = intelligence.budget.recommendedAllocation.recruitingNil;
+  const currentRecruitingNil = intelligence.budget.currentAllocation.recruitingNil;
+  const investment = Math.max(0, recommendedRecruitingNil - currentRecruitingNil);
+
+  if (!highNeedGroup || investment <= 0) {
+    return null;
+  }
+
+  return {
+    id: "ops-budget-recruiting-nil-roi",
+    category: "Blueprint",
+    priority: highNeedGroup.depthStatus === "At Risk" ? "Critical" : "High",
+    title: `Increase Recruiting NIL by ${investment}`,
+    recommendation: `Move ${investment} Dynasty Points into Recruiting NIL before the board reaches the final decision window.`,
+    reason: `${highNeedGroup.position} is a high-need position group, and the current Recruiting NIL allocation is below the recommended annual budget split.`,
+    investment: `${investment} Dynasty Points`,
+    tradeoffs: [
+      "Delay lower-priority facility or staff spending until the next offseason.",
+      "Ignoring this gap may leave the staff short when priority recruits compare offers."
+    ],
+    expectedBenefit: `Higher probability of landing priority ${highNeedGroup.position} targets without forcing a late Transfer Portal correction.`,
+    expectedOutcome: `Recruiting NIL aligns with the roster need at ${highNeedGroup.position} while preserving a clearer annual budget plan.`,
+    impactedDepartment: "Football Operations Budget"
   };
 }
 
@@ -122,11 +152,17 @@ export function evaluateOffensiveLineDepth(
 }
 
 export function evaluateDefensiveLineRecruiting(): FootballRecommendation | null {
-  const defensiveLineTargets = oklahomaTargetRecruits.filter(
-    (recruit) => recruit.position === "DL"
+  return null;
+}
+
+export function evaluateRecruitingBoardGaps(
+  intelligence: FootballOperationsIntelligence
+): FootballRecommendation | null {
+  const defensiveLineNeed = intelligence.roster.recruitingNeeds.find(
+    (need) => need.position === "DL"
   );
 
-  if (defensiveLineTargets.length > 0) {
+  if (!defensiveLineNeed) {
     return null;
   }
 
@@ -171,11 +207,13 @@ export function evaluateHighRiskRosterGroups(
 }
 
 export function evaluateTransferPortalContingency(
-  groups: PositionGroup[]
+  intelligence: FootballOperationsIntelligence
 ): FootballRecommendation | null {
-  const atRiskGroup = groups.find((group) => group.depthStatus === "At Risk");
+  const atRiskGroup = intelligence.roster.positionGroups.find(
+    (group) => group.depthStatus === "At Risk"
+  );
 
-  if (!atRiskGroup || oklahomaTransferOverview.transferBudget <= 0) {
+  if (!atRiskGroup) {
     return null;
   }
 
@@ -198,8 +236,10 @@ export function evaluateTransferPortalContingency(
   };
 }
 
-export function evaluateStaffSupport(): FootballRecommendation | null {
-  if (!isOperationsGradeBelow(oklahomaStaffOverview.staffGrade, "A")) {
+export function evaluateStaffSupport(
+  intelligence: FootballOperationsIntelligence
+): FootballRecommendation | null {
+  if (!["Watch", "At Risk"].includes(intelligence.staff.staffHealth)) {
     return null;
   }
 
@@ -222,8 +262,10 @@ export function evaluateStaffSupport(): FootballRecommendation | null {
   };
 }
 
-export function evaluateProgramHealth(profile: ProgramProfile): FootballRecommendation | null {
-  if (profile.school.prestige >= 4 && oklahomaRecruitingOverview.classGrade >= "B+") {
+export function evaluateProgramHealth(
+  intelligence: FootballOperationsIntelligence
+): FootballRecommendation | null {
+  if (intelligence.program.overallProgramHealth >= 84) {
     return null;
   }
 
@@ -246,16 +288,20 @@ export function evaluateProgramHealth(profile: ProgramProfile): FootballRecommen
   };
 }
 
-export function buildFootballOperationsRecommendations(profile: ProgramProfile) {
-  const groups = oklahomaMockRoster.positionGroups;
+export function buildFootballOperationsRecommendations(
+  _profile: ProgramProfile,
+  intelligence: FootballOperationsIntelligence
+) {
+  const groups = intelligence.roster.positionGroups;
   const recommendations: Array<FootballRecommendation | null> = [
+    evaluateBudgetRecruitingROI(intelligence),
     evaluateQuarterbackFuture(groups),
-    evaluateFacilitiesInvestment(profile),
+    evaluateFacilitiesInvestment(intelligence),
     evaluateOffensiveLineDepth(groups),
-    evaluateDefensiveLineRecruiting(),
-    evaluateTransferPortalContingency(groups),
-    evaluateStaffSupport(),
-    evaluateProgramHealth(profile),
+    evaluateRecruitingBoardGaps(intelligence),
+    evaluateTransferPortalContingency(intelligence),
+    evaluateStaffSupport(intelligence),
+    evaluateProgramHealth(intelligence),
     ...evaluateHighRiskRosterGroups(groups)
   ];
 

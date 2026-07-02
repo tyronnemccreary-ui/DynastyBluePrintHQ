@@ -2,16 +2,23 @@
 
 import Link from "next/link";
 import { ArrowRight, LayoutDashboard } from "lucide-react";
-import { mockProgramHealth } from "@/data/mock-program-health";
+import { DepartmentActivationGrid } from "@/components/departments/DepartmentActivationGrid";
 import { WeeklyOperationsBriefing } from "@/components/operations/WeeklyOperationsBriefing";
+import { BudgetSummaryCard } from "@/components/war-room/BudgetSummaryCard";
+import { ProgramIntelligenceCard } from "@/components/war-room/ProgramIntelligenceCard";
 import { ProgramHealthCard } from "@/components/war-room/ProgramHealthCard";
 import { ProgramStatusCard } from "@/components/war-room/ProgramStatusCard";
 import { QuickActions } from "@/components/war-room/QuickActions";
+import { RosterAlertCard } from "@/components/war-room/RosterAlertCard";
 import { Card } from "@/components/ui/card";
 import { SectionHeader } from "@/components/ui/section-header";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { getWeeklyOperationsBriefing } from "@/services/weekly-briefing";
+import { getFootballOperationsIntelligence } from "@/intelligence/services/department-intelligence-service";
 import { useProgramStore } from "@/store/program-store";
+import { getDepartmentActivations } from "@/utils/department-activation";
+import { summarizeBudgetForecast } from "@/utils/blueprint-recommendations";
+import { generateRosterAlert } from "@/utils/roster-recommendations";
 
 export default function WarRoomPage() {
   const programProfile = useProgramStore((state) => state.programProfile);
@@ -55,6 +62,12 @@ export default function WarRoomPage() {
   const briefing = getWeeklyOperationsBriefing({
     programProfile
   });
+  const intelligence = getFootballOperationsIntelligence(programProfile);
+  const departments = getDepartmentActivations(programProfile);
+  const rosterAlert = programProfile.roster.data
+    ? generateRosterAlert(programProfile.roster.data.positionGroups)
+    : null;
+  const budgetSummary = summarizeBudgetForecast(programProfile.budgetForecast);
 
   return (
     <div className="space-y-6">
@@ -67,10 +80,26 @@ export default function WarRoomPage() {
 
       <div className="grid gap-6 xl:grid-cols-[1.25fr_0.75fr]">
         <ProgramStatusCard profile={programProfile} />
-        <ProgramHealthCard health={mockProgramHealth} />
+        <ProgramHealthCard
+          health={{
+            overall: intelligence.program.overallProgramHealth,
+            roster: intelligence.roster.rosterScore,
+            recruiting: intelligence.recruiting.recruitingScore,
+            blueprint: intelligence.budget.budgetScore,
+            staff: intelligence.staff.staffScore
+          }}
+        />
       </div>
 
       <WeeklyOperationsBriefing briefing={briefing} />
+
+      <ProgramIntelligenceCard intelligence={intelligence.program} />
+
+      <BudgetSummaryCard summary={budgetSummary} />
+
+      {rosterAlert ? <RosterAlertCard alert={rosterAlert} /> : null}
+
+      <DepartmentActivationGrid departments={departments} />
 
       <QuickActions />
     </div>

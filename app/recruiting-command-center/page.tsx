@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { ArrowRight, ClipboardList } from "lucide-react";
+import { useMemo, useState } from "react";
+import type { RecruitStatus } from "@/types/recruiting";
 import { oklahomaMockRoster } from "@/data/mock-roster";
 import {
   oklahomaNILGuidance,
@@ -10,6 +12,7 @@ import {
   oklahomaRecruitingSummary,
   oklahomaTargetRecruits
 } from "@/data/mock-recruits";
+import { DepartmentActivationCard } from "@/components/departments/DepartmentActivationCard";
 import { NILRecruitingGuidance } from "@/components/recruiting/NILRecruitingGuidance";
 import { PipelineStrategyCard } from "@/components/recruiting/PipelineStrategyCard";
 import { RecruitingOverviewCard } from "@/components/recruiting/RecruitingOverviewCard";
@@ -20,6 +23,7 @@ import { Card } from "@/components/ui/card";
 import { SectionHeader } from "@/components/ui/section-header";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { useProgramStore } from "@/store/program-store";
+import { getDepartmentActivation } from "@/utils/department-activation";
 import {
   evaluateTargetRecruits,
   getTopPositionNeeds
@@ -28,9 +32,28 @@ import { generateRecruitingPriorities } from "@/utils/roster-recommendations";
 
 export default function RecruitingCommandCenterPage() {
   const programProfile = useProgramStore((state) => state.programProfile);
+  const [recruitStatuses, setRecruitStatuses] = useState<Record<string, RecruitStatus>>({});
   const teamNeeds = generateRecruitingPriorities(oklahomaMockRoster.positionGroups);
   const evaluatedRecruits = evaluateTargetRecruits(oklahomaTargetRecruits);
   const topPositionNeeds = getTopPositionNeeds(teamNeeds);
+  const hardCommitCount = Object.values(recruitStatuses).filter(
+    (status) => status === "Hard Commit"
+  ).length;
+  const recruitingOverview = useMemo(
+    () => ({
+      ...oklahomaRecruitingOverview,
+      currentCommits: hardCommitCount,
+      openScholarships: Math.max(0, 35 - hardCommitCount)
+    }),
+    [hardCommitCount]
+  );
+
+  function updateRecruitStatus(recruitId: string, status: RecruitStatus) {
+    setRecruitStatuses((currentStatuses) => ({
+      ...currentStatuses,
+      [recruitId]: status
+    }));
+  }
 
   if (!programProfile) {
     return (
@@ -68,23 +91,33 @@ export default function RecruitingCommandCenterPage() {
     );
   }
 
+  const activation = getDepartmentActivation("recruiting-command-center", programProfile);
+
   return (
     <div className="space-y-6">
       <SectionHeader
         eyebrow="Talent Acquisition"
         title="Recruiting Command Center"
         description={`A strategic recruiting view for ${programProfile.school.name}'s position needs, target fit, NIL posture, and pipeline focus.`}
-        status="Recruiting Active"
+        status={activation?.status === "Ready" ? "Recruiting Active" : "Needs Activation"}
       />
 
+      {activation && activation.status !== "Ready" ? (
+        <DepartmentActivationCard department={activation} />
+      ) : null}
+
       <RecruitingOverviewCard
-        overview={oklahomaRecruitingOverview}
+        overview={recruitingOverview}
         topPositionNeeds={topPositionNeeds}
       />
 
       <TeamNeedsCard needs={teamNeeds} />
 
-      <TargetRecruitTable recruits={evaluatedRecruits} />
+      <TargetRecruitTable
+        onStatusChange={updateRecruitStatus}
+        recruits={evaluatedRecruits}
+        recruitStatuses={recruitStatuses}
+      />
 
       <div className="grid gap-6 xl:grid-cols-[1fr_1fr]">
         <NILRecruitingGuidance guidance={oklahomaNILGuidance} />

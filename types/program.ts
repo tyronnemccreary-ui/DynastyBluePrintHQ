@@ -1,18 +1,21 @@
-import type { School } from "@/types/school";
+export type {
+  CoachRole,
+  DynastyType,
+  JobSecurity,
+  ProgramBlueprintState,
+  ProgramHistoryEvent,
+  ProgramLifecyclePhase,
+  ProgramOperationsActivation,
+  ProgramOperationsProfile,
+  ProgramRecruitingState,
+  ProgramRosterState,
+  ProgramStaffState,
+  ProgramTransferPortalState
+} from "@/program/types/program";
 
-export type DynastyType = "new" | "existing";
+export type { ProgramOperationsProfile as ProgramProfile } from "@/program/types/program";
 
-export type CoachRole = "head_coach" | "offensive_coordinator" | "defensive_coordinator";
-
-export type ProgramProfile = {
-  id: string;
-  dynastyType: DynastyType;
-  school: School;
-  coachName: string;
-  coachRole: CoachRole;
-  createdAt: string;
-  updatedAt?: string;
-};
+import type { CoachRole, DynastyType } from "@/program/types/program";
 
 export const coachRoleLabels: Record<CoachRole, string> = {
   head_coach: "Head Coach",

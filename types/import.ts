@@ -8,14 +8,20 @@ export type ScreenshotCategory =
   | "Staff Management"
   | "My School Grades";
 
-export type ImportStatus = "Uploaded" | "Pending Analysis" | "Ready for Future OCR";
+export type UploadLifecycleStatus = "Idle" | "Uploading" | "Processing" | "Complete" | "Failed";
+
+export type ImportMethod = "Screenshot Upload" | "CSV Upload";
 
 export type ScreenshotUpload = {
   id: string;
+  file?: File;
   fileName: string;
   category: ScreenshotCategory;
-  status: ImportStatus;
-  previewUrl: string;
+  method: ImportMethod;
+  status: UploadLifecycleStatus;
+  progress: number;
+  message: string;
+  previewUrl?: string;
 };
 
 export type ImportMapping = {

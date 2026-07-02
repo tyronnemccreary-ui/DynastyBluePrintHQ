@@ -42,7 +42,7 @@ export const importMappings: ImportMapping[] = [
   {
     category: "Recruiting Board",
     description: "Recruit board status and prospect fit.",
-    futureFields: ["Recruit Name", "Position", "Stars", "Pipeline", "Interest", "NIL Expectation"]
+    futureFields: ["Recruit Name", "Position", "Stars", "Pipeline", "Interest", "Expected NIL"]
   },
   {
     category: "Transfer Portal",

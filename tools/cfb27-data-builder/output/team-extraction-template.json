@@ -1,0 +1,32 @@
+{
+  "school": "Oklahoma",
+  "mascot": "Sooners",
+  "shortName": "OU",
+  "conference": "SEC",
+  "teamPrestige": 5,
+  "overall": 90,
+  "offense": 91,
+  "defense": 88,
+  "dynastyPoints": {
+    "total": 25,
+    "allocated": 0,
+    "used": 0,
+    "available": 25
+  },
+  "mySchoolGrades": {
+    "academicPrestige": "B+",
+    "athleticFacilities": "A",
+    "brandExposure": "A+",
+    "campusLifestyle": "A",
+    "championshipContender": "A+",
+    "coachPrestige": "A",
+    "coachStability": "A",
+    "conferencePrestige": "A+",
+    "playingStyle": "A-",
+    "playingTime": "B",
+    "proximityToHome": "Not Available",
+    "programTradition": "A+",
+    "stadiumAtmosphere": "A",
+    "proPotential": "A"
+  }
+}

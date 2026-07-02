@@ -1,4 +1,5 @@
 import { Map } from "lucide-react";
+import { cfb27Pipelines } from "@/data/pipelines";
 import { Card } from "@/components/ui/card";
 import { StatusBadge } from "@/components/ui/status-badge";
 import type { PipelineStrategy } from "@/types/recruiting";
@@ -26,6 +27,17 @@ export function PipelineStrategyCard({ strategy }: PipelineStrategyCardProps) {
         ))}
       </div>
       <p className="mt-5 text-sm leading-7 text-blueprint-100">{strategy.summary}</p>
+
+      <div className="mt-6 rounded-lg border border-white/10 bg-white/[0.03] p-4">
+        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-blueprint-300">
+          Official Pipeline Options
+        </p>
+        <div className="mt-3 flex max-h-32 flex-wrap gap-2 overflow-y-auto pr-1">
+          {cfb27Pipelines.map((pipeline) => (
+            <StatusBadge key={pipeline}>{pipeline}</StatusBadge>
+          ))}
+        </div>
+      </div>
     </Card>
   );
 }

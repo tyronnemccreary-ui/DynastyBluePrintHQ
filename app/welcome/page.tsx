@@ -1,12 +1,13 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
-import { ArrowRight, Check, ClipboardList, Shield } from "lucide-react";
+import { ArrowRight, Check, ClipboardList, Search, Shield } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { schools } from "@/data/schools";
+import { cfb27Teams } from "@/database/teams/team-index";
+import { createProgramOperationsProfile } from "@/program/services/program-engine";
 import { useProgramStore } from "@/store/program-store";
 import {
   coachRoleLabels,
@@ -20,6 +21,7 @@ import { Card } from "@/components/ui/card";
 import { SectionHeader } from "@/components/ui/section-header";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { cn } from "@/utils/cn";
+import { formatConference, formatText } from "@/utils/display-formatters";
 
 const welcomeSchema = z.object({
   dynastyType: z.enum(["new", "existing"]),
@@ -61,6 +63,7 @@ export default function WelcomePage() {
   const router = useRouter();
   const setProgramProfile = useProgramStore((state) => state.setProgramProfile);
   const [createdProfile, setCreatedProfile] = useState<ProgramProfile | null>(null);
+  const [schoolSearch, setSchoolSearch] = useState("");
 
   const {
     register,
@@ -84,20 +87,45 @@ export default function WelcomePage() {
   const selectedCoachRole = watch("coachRole");
 
   const selectedSchool = useMemo(
-    () => schools.find((school) => school.id === selectedSchoolId) ?? schools[0],
+    () => cfb27Teams.find((school) => school.id === selectedSchoolId) ?? cfb27Teams[0],
     [selectedSchoolId]
   );
+  const filteredSchools = useMemo(() => {
+    const query = schoolSearch.trim().toLowerCase();
+
+    if (!query) {
+      return cfb27Teams;
+    }
+
+    return cfb27Teams.filter((school) => {
+      const searchableText = [
+        school.name,
+        school.shortName,
+        school.mascot,
+        school.conference
+      ]
+        .join(" ")
+        .toLowerCase();
+
+      return searchableText.includes(query);
+    });
+  }, [schoolSearch]);
+  const selectableSchools = useMemo(() => {
+    if (filteredSchools.some((school) => school.id === selectedSchoolId)) {
+      return filteredSchools;
+    }
+
+    return [selectedSchool, ...filteredSchools];
+  }, [filteredSchools, selectedSchool, selectedSchoolId]);
 
   function onSubmit(values: WelcomeFormValues) {
-    const school = schools.find((item) => item.id === values.schoolId) ?? schools[0];
-    const profile: ProgramProfile = {
-      id: `program-${Date.now()}`,
+    const school = cfb27Teams.find((item) => item.id === values.schoolId) ?? cfb27Teams[0];
+    const profile = createProgramOperationsProfile({
       dynastyType: values.dynastyType,
-      school,
+      selectedTeam: school,
       coachName: values.coachName.trim(),
-      coachRole: values.coachRole,
-      createdAt: new Date().toISOString()
-    };
+      coachRole: values.coachRole
+    });
 
     setProgramProfile(profile);
     setCreatedProfile(profile);
@@ -113,7 +141,6 @@ export default function WelcomePage() {
         eyebrow="Onboarding"
         title="Welcome to the Program"
         description="Take over your program and begin building your dynasty."
-        status="Sprint 2"
       />
 
       <form className="grid gap-6 xl:grid-cols-[1fr_380px]" onSubmit={handleSubmit(onSubmit)}>
@@ -166,44 +193,76 @@ export default function WelcomePage() {
               <StatusBadge>Step 2</StatusBadge>
               <h2 className="mt-4 text-xl font-semibold text-white">School Selection</h2>
               <p className="mt-2 text-sm text-blueprint-200">
-                More schools can be added to this data set without changing the onboarding flow.
+                Team records come from the CFB 27 Team Database and can be expanded from reviewed
+                screenshot data later.
               </p>
             </div>
 
-            <div className="mt-6 grid gap-3">
-              {schools.map((school) => (
-                <button
-                  className={cn(
-                    "rounded-lg border p-5 text-left transition-colors",
-                    selectedSchoolId === school.id
-                      ? "border-turf-400/60 bg-turf-400/10"
-                      : "border-white/10 bg-white/[0.035] hover:bg-white/[0.06]"
-                  )}
-                  key={school.id}
-                  onClick={() =>
-                    setValue("schoolId", school.id, {
+            <div className="mt-6 grid gap-4">
+              <label className="block">
+                <span className="text-sm font-medium text-blueprint-100">Search Schools</span>
+                <div className="relative mt-2">
+                  <Search
+                    className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-blueprint-400"
+                    aria-hidden="true"
+                  />
+                  <input
+                    className="h-11 w-full rounded-md border border-white/10 bg-white/[0.045] pl-11 pr-4 text-sm text-white outline-none transition-colors placeholder:text-blueprint-400 focus:border-turf-400/60 focus:ring-2 focus:ring-turf-400/20"
+                    onChange={(event) => setSchoolSearch(event.target.value)}
+                    placeholder="Search by school, mascot, or conference"
+                    type="search"
+                    value={schoolSearch}
+                  />
+                </div>
+              </label>
+
+              <label className="block">
+                <span className="text-sm font-medium text-blueprint-100">Select School</span>
+                <select
+                  className="mt-2 h-11 w-full rounded-md border border-white/10 bg-white/[0.045] px-4 text-sm text-white outline-none transition-colors focus:border-turf-400/60 focus:ring-2 focus:ring-turf-400/20"
+                  onChange={(event) =>
+                    setValue("schoolId", event.target.value, {
                       shouldDirty: true,
                       shouldValidate: true
                     })
                   }
-                  type="button"
+                  value={selectedSchoolId}
                 >
-                  <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                    <div>
-                      <p className="text-lg font-semibold text-white">{school.name}</p>
-                      <p className="mt-1 text-sm text-blueprint-200">
-                        {school.mascot} • {school.conference} • {school.location}
-                      </p>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <StatusBadge>{school.abbreviation}</StatusBadge>
-                      <span className="text-sm text-blueprint-200">
-                        Prestige {school.prestige}
-                      </span>
-                    </div>
+                  {selectableSchools.map((school) => (
+                    <option
+                      className="bg-blueprint-950 text-white"
+                      key={school.id}
+                      value={school.id}
+                    >
+                      {school.name} - {formatConference(school.conference)}
+                    </option>
+                  ))}
+                </select>
+              </label>
+
+              <div className="rounded-lg border border-white/10 bg-white/[0.035] p-5">
+                <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                  <div>
+                    <p className="text-lg font-semibold text-white">{selectedSchool.name}</p>
+                    <p className="mt-1 text-sm text-blueprint-200">
+                      {formatText(selectedSchool.mascot)} •{" "}
+                      {formatConference(selectedSchool.conference)}
+                    </p>
                   </div>
-                </button>
-              ))}
+                  <div className="flex items-center gap-3">
+                    <StatusBadge>{formatText(selectedSchool.abbreviation)}</StatusBadge>
+                    <span className="text-sm text-blueprint-200">
+                      Prestige {selectedSchool.teamPrestige ?? "Not Available"}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {filteredSchools.length === 0 ? (
+                <p className="text-sm text-blueprint-300">
+                  No schools match that search. Clear the search to show every team.
+                </p>
+              ) : null}
             </div>
             {errors.schoolId ? (
               <p className="mt-3 text-sm text-red-300">{errors.schoolId.message}</p>
@@ -285,7 +344,9 @@ export default function WelcomePage() {
               </div>
               <div className="flex items-center justify-between gap-4 border-b border-white/10 pb-3">
                 <dt className="text-blueprint-300">Conference</dt>
-                <dd className="text-right font-medium text-white">{selectedSchool.conference}</dd>
+                <dd className="text-right font-medium text-white">
+                  {formatConference(selectedSchool.conference)}
+                </dd>
               </div>
               <div className="flex items-center justify-between gap-4">
                 <dt className="text-blueprint-300">Coach Role</dt>

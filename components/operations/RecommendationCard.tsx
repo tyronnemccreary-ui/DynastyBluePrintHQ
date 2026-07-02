@@ -37,6 +37,9 @@ export function RecommendationCard({
           value={recommendation.recommendation}
         />
         <RecommendationSection label="Reason" value={recommendation.reason} />
+        {recommendation.investment ? (
+          <RecommendationSection label="Investment" value={recommendation.investment} />
+        ) : null}
         <div>
           <p className="text-xs font-medium uppercase tracking-[0.16em] text-blueprint-300">
             Tradeoff
@@ -47,6 +50,12 @@ export function RecommendationCard({
             ))}
           </ul>
         </div>
+        {recommendation.expectedBenefit ? (
+          <RecommendationSection
+            label="Expected Benefit"
+            value={recommendation.expectedBenefit}
+          />
+        ) : null}
         <RecommendationSection
           label="Expected Outcome"
           value={recommendation.expectedOutcome}

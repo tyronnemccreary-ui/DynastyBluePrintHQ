@@ -1,6 +1,41 @@
 import type { MockRosterProfile } from "@/types/roster";
 
 export const oklahomaMockRoster: MockRosterProfile = {
+  players: [
+    {
+      playerId: "placeholder-qb-1",
+      name: "Sample QB",
+      position: "QB",
+      overall: 88,
+      year: "JR",
+      archetype: "Field General",
+      developmentTrait: "Star",
+      projectedRole: "Starter",
+      eligibilityRemaining: 2
+    },
+    {
+      playerId: "placeholder-te-1",
+      name: "Sample TE",
+      position: "TE",
+      overall: 79,
+      year: "SR",
+      archetype: "Vertical Threat",
+      developmentTrait: "Impact",
+      projectedRole: "Starter",
+      eligibilityRemaining: 1
+    },
+    {
+      playerId: "placeholder-lb-1",
+      name: "Sample LB",
+      position: "LB",
+      overall: 81,
+      year: "SR",
+      archetype: "Field General",
+      developmentTrait: "Normal",
+      projectedRole: "Starter",
+      eligibilityRemaining: 1
+    }
+  ],
   overview: {
     overallGrade: "B+",
     offensiveGrade: "A",
@@ -15,6 +50,7 @@ export const oklahomaMockRoster: MockRosterProfile = {
       futureGrade: "B+",
       depthStatus: "Stable",
       developmentOutlook: "Strong",
+      seniorDepartureRisk: "Medium",
       needLevel: "Medium"
     },
     {
@@ -23,6 +59,7 @@ export const oklahomaMockRoster: MockRosterProfile = {
       futureGrade: "B+",
       depthStatus: "Strong",
       developmentOutlook: "Steady",
+      seniorDepartureRisk: "Low",
       needLevel: "Low"
     },
     {
@@ -31,6 +68,7 @@ export const oklahomaMockRoster: MockRosterProfile = {
       futureGrade: "A",
       depthStatus: "Strong",
       developmentOutlook: "Excellent",
+      seniorDepartureRisk: "Low",
       needLevel: "Low"
     },
     {
@@ -39,6 +77,7 @@ export const oklahomaMockRoster: MockRosterProfile = {
       futureGrade: "C+",
       depthStatus: "Thin",
       developmentOutlook: "Needs Attention",
+      seniorDepartureRisk: "High",
       needLevel: "High"
     },
     {
@@ -47,6 +86,7 @@ export const oklahomaMockRoster: MockRosterProfile = {
       futureGrade: "B",
       depthStatus: "Stable",
       developmentOutlook: "Steady",
+      seniorDepartureRisk: "Medium",
       needLevel: "Medium"
     },
     {
@@ -55,6 +95,7 @@ export const oklahomaMockRoster: MockRosterProfile = {
       futureGrade: "B",
       depthStatus: "Stable",
       developmentOutlook: "Strong",
+      seniorDepartureRisk: "Medium",
       needLevel: "Medium"
     },
     {
@@ -63,6 +104,7 @@ export const oklahomaMockRoster: MockRosterProfile = {
       futureGrade: "C+",
       depthStatus: "At Risk",
       developmentOutlook: "Needs Attention",
+      seniorDepartureRisk: "High",
       needLevel: "High"
     },
     {
@@ -71,6 +113,7 @@ export const oklahomaMockRoster: MockRosterProfile = {
       futureGrade: "B",
       depthStatus: "Thin",
       developmentOutlook: "Strong",
+      seniorDepartureRisk: "Medium",
       needLevel: "Medium"
     },
     {
@@ -79,6 +122,7 @@ export const oklahomaMockRoster: MockRosterProfile = {
       futureGrade: "B+",
       depthStatus: "Stable",
       developmentOutlook: "Strong",
+      seniorDepartureRisk: "Medium",
       needLevel: "Medium"
     }
   ],

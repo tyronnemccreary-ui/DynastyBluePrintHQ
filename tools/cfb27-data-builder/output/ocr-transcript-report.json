@@ -1,0 +1,949 @@
+{
+  "generatedAt": "2026-06-29T22:18:49.940Z",
+  "totalScreenshotsProcessed": 117,
+  "totalOCRTranscriptsCreated": 117,
+  "emptyTranscripts": 0,
+  "failedTranscripts": 0,
+  "commonOCRIssues": [
+    "Apple Vision OCR failed in this environment; fallback review transcripts were created.",
+    "OCR output is not trusted automatically; extraction still flags uncertain fields for review."
+  ],
+  "results": [
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/5 Star/Alabama.png",
+      "transcriptPath": "input/5 Star/Alabama.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/5 Star/Georgia.png",
+      "transcriptPath": "input/5 Star/Georgia.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/5 Star/Ohio State.png",
+      "transcriptPath": "input/5 Star/Ohio State.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 424,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/LSU.png",
+      "transcriptPath": "input/4 Star/LSU.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 426,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Miami.png",
+      "transcriptPath": "input/4 Star/Miami.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Michigan.png",
+      "transcriptPath": "input/4 Star/Michigan.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Nebraska.png",
+      "transcriptPath": "input/4 Star/Nebraska.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Notre Dame.png",
+      "transcriptPath": "input/4 Star/Notre Dame.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Oklahoma.png",
+      "transcriptPath": "input/4 Star/Oklahoma.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Ole Miss.png",
+      "transcriptPath": "input/4 Star/Ole Miss.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 427,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Oregon.png",
+      "transcriptPath": "input/4 Star/Oregon.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Penn St.png",
+      "transcriptPath": "input/4 Star/Penn St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 430,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Tennessee.png",
+      "transcriptPath": "input/4 Star/Tennessee.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 430,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Texas A&M.png",
+      "transcriptPath": "input/4 Star/Texas A&M.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 426,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Texas.png",
+      "transcriptPath": "input/4 Star/Texas.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 424,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/USC.png",
+      "transcriptPath": "input/4 Star/USC.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 434,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/4 Star/Washington St.png",
+      "transcriptPath": "input/4 Star/Washington St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Arizona St.png",
+      "transcriptPath": "input/3 Star/Arizona St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Arkansas.png",
+      "transcriptPath": "input/3 Star/Arkansas.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 427,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Auburn.png",
+      "transcriptPath": "input/3 Star/Auburn.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/California.png",
+      "transcriptPath": "input/3 Star/California.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Colorado.png",
+      "transcriptPath": "input/3 Star/Colorado.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Duke.png",
+      "transcriptPath": "input/3 Star/Duke.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Florida St.png",
+      "transcriptPath": "input/3 Star/Florida St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 433,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Georgia Tech.png",
+      "transcriptPath": "input/3 Star/Georgia Tech.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Houston.png",
+      "transcriptPath": "input/3 Star/Houston.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Illinois.png",
+      "transcriptPath": "input/3 Star/Illinois.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Iowa.png",
+      "transcriptPath": "input/3 Star/Iowa.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Kentucky.png",
+      "transcriptPath": "input/3 Star/Kentucky.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Louisville.png",
+      "transcriptPath": "input/3 Star/Louisville.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/MIssouri.png",
+      "transcriptPath": "input/3 Star/MIssouri.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Michigan St.png",
+      "transcriptPath": "input/3 Star/Michigan St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 430,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Minnesota.png",
+      "transcriptPath": "input/3 Star/Minnesota.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/NC State.png",
+      "transcriptPath": "input/3 Star/NC State.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Oklahoma St.png",
+      "transcriptPath": "input/3 Star/Oklahoma St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Pittsburgh.png",
+      "transcriptPath": "input/3 Star/Pittsburgh.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 424,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/SMU.png",
+      "transcriptPath": "input/3 Star/SMU.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 435,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/South Carolina.png",
+      "transcriptPath": "input/3 Star/South Carolina.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Stanford.png",
+      "transcriptPath": "input/3 Star/Stanford.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Syracuse.png",
+      "transcriptPath": "input/3 Star/Syracuse.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 424,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/TCU.png",
+      "transcriptPath": "input/3 Star/TCU.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Texas Tech.png",
+      "transcriptPath": "input/3 Star/Texas Tech.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/UCLA.png",
+      "transcriptPath": "input/3 Star/UCLA.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Utah.png",
+      "transcriptPath": "input/3 Star/Utah.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Virgina.png",
+      "transcriptPath": "input/3 Star/Virgina.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 434,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Virginia Tech.png",
+      "transcriptPath": "input/3 Star/Virginia Tech.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 430,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/3 Star/Wisconsin.png",
+      "transcriptPath": "input/3 Star/Wisconsin.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Arizona.png",
+      "transcriptPath": "input/2 Star/Arizona.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Army.png",
+      "transcriptPath": "input/2 Star/Army.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 427,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Baylor.png",
+      "transcriptPath": "input/2 Star/Baylor.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Boise St.png",
+      "transcriptPath": "input/2 Star/Boise St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 435,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Boston College.png",
+      "transcriptPath": "input/2 Star/Boston College.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Cincinnati.png",
+      "transcriptPath": "input/2 Star/Cincinnati.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 434,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/East Carolina.png",
+      "transcriptPath": "input/2 Star/East Carolina.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Iowa St.png",
+      "transcriptPath": "input/2 Star/Iowa St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 433,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Kansas State.png",
+      "transcriptPath": "input/2 Star/Kansas State.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 427,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Kansas.png",
+      "transcriptPath": "input/2 Star/Kansas.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Maryland.png",
+      "transcriptPath": "input/2 Star/Maryland.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Memphis.png",
+      "transcriptPath": "input/2 Star/Memphis.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 435,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Mississippi St.png",
+      "transcriptPath": "input/2 Star/Mississippi St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Navy.png",
+      "transcriptPath": "input/2 Star/Navy.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 435,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/North Carolina.png",
+      "transcriptPath": "input/2 Star/North Carolina.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 433,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Northwestern.png",
+      "transcriptPath": "input/2 Star/Northwestern.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 430,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Oregon St.png",
+      "transcriptPath": "input/2 Star/Oregon St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 427,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Purdue .png",
+      "transcriptPath": "input/2 Star/Purdue .ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Rutgers.png",
+      "transcriptPath": "input/2 Star/Rutgers.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 427,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Tulane.png",
+      "transcriptPath": "input/2 Star/Tulane.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 424,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/UCF.png",
+      "transcriptPath": "input/2 Star/UCF.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Vanderbilt.png",
+      "transcriptPath": "input/2 Star/Vanderbilt.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Wake Forest.png",
+      "transcriptPath": "input/2 Star/Wake Forest.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 434,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/2 Star/Washington St.png",
+      "transcriptPath": "input/2 Star/Washington St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/AirForce.png",
+      "transcriptPath": "input/1 Star/AirForce.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 430,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/App State.png",
+      "transcriptPath": "input/1 Star/App State.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Arkansas St.png",
+      "transcriptPath": "input/1 Star/Arkansas St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 437,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Central Michigan.png",
+      "transcriptPath": "input/1 Star/Central Michigan.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Colorado St.png",
+      "transcriptPath": "input/1 Star/Colorado St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Connecticut.png",
+      "transcriptPath": "input/1 Star/Connecticut.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 436,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Costal Carolina .png",
+      "transcriptPath": "input/1 Star/Costal Carolina .ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 434,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Delware State.png",
+      "transcriptPath": "input/1 Star/Delware State.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 424,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/FIU.png",
+      "transcriptPath": "input/1 Star/FIU.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/FLA Alantic.png",
+      "transcriptPath": "input/1 Star/FLA Alantic.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 430,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Fresno St.png",
+      "transcriptPath": "input/1 Star/Fresno St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/GA Southern.png",
+      "transcriptPath": "input/1 Star/GA Southern.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 427,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Hawaii.png",
+      "transcriptPath": "input/1 Star/Hawaii.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 434,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/James Madisun.png",
+      "transcriptPath": "input/1 Star/James Madisun.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 430,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Jax State.png",
+      "transcriptPath": "input/1 Star/Jax State.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Kennesaw St.png",
+      "transcriptPath": "input/1 Star/Kennesaw St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Liberty.png",
+      "transcriptPath": "input/1 Star/Liberty.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Lousiana .png",
+      "transcriptPath": "input/1 Star/Lousiana .ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 434,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Lousiana Tech.png",
+      "transcriptPath": "input/1 Star/Lousiana Tech.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Marshall.png",
+      "transcriptPath": "input/1 Star/Marshall.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Miami Ohio .png",
+      "transcriptPath": "input/1 Star/Miami Ohio .ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 424,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/NIU.png",
+      "transcriptPath": "input/1 Star/NIU.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 427,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Neveda.png",
+      "transcriptPath": "input/1 Star/Neveda.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 434,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/New Mexico St.png",
+      "transcriptPath": "input/1 Star/New Mexico St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 431,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/New Mexico.png",
+      "transcriptPath": "input/1 Star/New Mexico.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 436,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/North Dakota St.png",
+      "transcriptPath": "input/1 Star/North Dakota St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/North Texas.png",
+      "transcriptPath": "input/1 Star/North Texas.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Ohio.png",
+      "transcriptPath": "input/1 Star/Ohio.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 433,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Old Dominion.png",
+      "transcriptPath": "input/1 Star/Old Dominion.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Rice.png",
+      "transcriptPath": "input/1 Star/Rice.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 430,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Sac State.png",
+      "transcriptPath": "input/1 Star/Sac State.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 433,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/San Diego St.png",
+      "transcriptPath": "input/1 Star/San Diego St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/San Jose St.png",
+      "transcriptPath": "input/1 Star/San Jose St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 427,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Temple.png",
+      "transcriptPath": "input/1 Star/Temple.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 429,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Texas St.png",
+      "transcriptPath": "input/1 Star/Texas St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 427,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Toledo.png",
+      "transcriptPath": "input/1 Star/Toledo.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Troy.png",
+      "transcriptPath": "input/1 Star/Troy.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 426,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Tulsa.png",
+      "transcriptPath": "input/1 Star/Tulsa.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 424,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/UAB.png",
+      "transcriptPath": "input/1 Star/UAB.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/UNLV.png",
+      "transcriptPath": "input/1 Star/UNLV.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 424,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/USF.png",
+      "transcriptPath": "input/1 Star/USF.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 425,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/UTSA.png",
+      "transcriptPath": "input/1 Star/UTSA.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Utah St.png",
+      "transcriptPath": "input/1 Star/Utah St.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/W. Kentucky.png",
+      "transcriptPath": "input/1 Star/W. Kentucky.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 432,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/W. Michigan.png",
+      "transcriptPath": "input/1 Star/W. Michigan.ocr.txt",
+      "visionSucceeded": false
+    },
+    {
+      "characterCount": 428,
+      "created": true,
+      "error": "The operation couldn’t be completed. (Foundation._GenericObjCError error 0.)",
+      "imagePath": "input/1 Star/Wyoming.png",
+      "transcriptPath": "input/1 Star/Wyoming.ocr.txt",
+      "visionSucceeded": false
+    }
+  ]
+}

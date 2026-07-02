@@ -24,7 +24,7 @@ export function RecruitingOverviewCard({
         <MetricCard label="Commits" value={`${overview.currentCommits}`} />
         <MetricCard label="Open Scholarships" value={`${overview.openScholarships}`} />
         <MetricCard label="Top Needs" value={topPositionNeeds} />
-        <MetricCard label="Pipeline Strength" value="Strong" detail={overview.pipelineStrength} />
+        <MetricCard label="Pipeline Model" value="Tier 1-5" detail={overview.pipelineStrength} />
       </div>
     </Card>
   );

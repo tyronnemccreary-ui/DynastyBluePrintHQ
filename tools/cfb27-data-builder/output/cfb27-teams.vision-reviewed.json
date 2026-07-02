@@ -1,0 +1,2544 @@
+{
+  "generatedAt": "2026-06-30T02:14:51.364Z",
+  "extractionMethod": "vision-reviewed",
+  "records": [
+    {
+      "id": "airforce",
+      "school": "AirForce",
+      "mascot": "Not Available",
+      "shortName": "AirForce",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/AirForce.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "app-state",
+      "school": "App State",
+      "mascot": "Not Available",
+      "shortName": "App State",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/App State.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "arkansas-st",
+      "school": "Arkansas St",
+      "mascot": "Not Available",
+      "shortName": "Arkansas St",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Arkansas St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "central-michigan",
+      "school": "Central Michigan",
+      "mascot": "Not Available",
+      "shortName": "Central Michigan",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Central Michigan.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "colorado-st",
+      "school": "Colorado St",
+      "mascot": "Not Available",
+      "shortName": "Colorado St",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Colorado St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "connecticut",
+      "school": "Connecticut",
+      "mascot": "Not Available",
+      "shortName": "Connecticut",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Connecticut.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "costal-carolina",
+      "school": "Costal Carolina",
+      "mascot": "Not Available",
+      "shortName": "Costal Carolina",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Costal Carolina .png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "delware-state",
+      "school": "Delware State",
+      "mascot": "Not Available",
+      "shortName": "Delware State",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Delware State.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "fiu",
+      "school": "FIU",
+      "mascot": "Not Available",
+      "shortName": "FIU",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/FIU.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "fla-alantic",
+      "school": "FLA Alantic",
+      "mascot": "Not Available",
+      "shortName": "FLA Alantic",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/FLA Alantic.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "fresno-st",
+      "school": "Fresno St",
+      "mascot": "Not Available",
+      "shortName": "Fresno St",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Fresno St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "ga-southern",
+      "school": "GA Southern",
+      "mascot": "Not Available",
+      "shortName": "GA Southern",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/GA Southern.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "hawaii",
+      "school": "Hawaii",
+      "mascot": "Not Available",
+      "shortName": "Hawaii",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Hawaii.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "james-madisun",
+      "school": "James Madisun",
+      "mascot": "Not Available",
+      "shortName": "James Madisun",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/James Madisun.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "jax-state",
+      "school": "Jax State",
+      "mascot": "Not Available",
+      "shortName": "Jax State",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Jax State.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "kennesaw-st",
+      "school": "Kennesaw St",
+      "mascot": "Not Available",
+      "shortName": "Kennesaw St",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Kennesaw St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "liberty",
+      "school": "Liberty",
+      "mascot": "Not Available",
+      "shortName": "Liberty",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Liberty.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "lousiana",
+      "school": "Lousiana",
+      "mascot": "Not Available",
+      "shortName": "Lousiana",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Lousiana .png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "lousiana-tech",
+      "school": "Lousiana Tech",
+      "mascot": "Not Available",
+      "shortName": "Lousiana Tech",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Lousiana Tech.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "marshall",
+      "school": "Marshall",
+      "mascot": "Not Available",
+      "shortName": "Marshall",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Marshall.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "miami-ohio",
+      "school": "Miami Ohio",
+      "mascot": "Not Available",
+      "shortName": "Miami Ohio",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Miami Ohio .png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "neveda",
+      "school": "Neveda",
+      "mascot": "Not Available",
+      "shortName": "Neveda",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Neveda.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "new-mexico-st",
+      "school": "New Mexico St",
+      "mascot": "Not Available",
+      "shortName": "New Mexico St",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/New Mexico St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "new-mexico",
+      "school": "New Mexico",
+      "mascot": "Not Available",
+      "shortName": "New Mexico",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/New Mexico.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "niu",
+      "school": "NIU",
+      "mascot": "Not Available",
+      "shortName": "NIU",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/NIU.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "north-dakota-st",
+      "school": "North Dakota St",
+      "mascot": "Not Available",
+      "shortName": "North Dakota St",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/North Dakota St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "north-texas",
+      "school": "North Texas",
+      "mascot": "Not Available",
+      "shortName": "North Texas",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/North Texas.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "ohio",
+      "school": "Ohio",
+      "mascot": "Not Available",
+      "shortName": "Ohio",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Ohio.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "old-dominion",
+      "school": "Old Dominion",
+      "mascot": "Not Available",
+      "shortName": "Old Dominion",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Old Dominion.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "rice",
+      "school": "Rice",
+      "mascot": "Not Available",
+      "shortName": "Rice",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Rice.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "sac-state",
+      "school": "Sac State",
+      "mascot": "Not Available",
+      "shortName": "Sac State",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Sac State.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "san-diego-st",
+      "school": "San Diego St",
+      "mascot": "Not Available",
+      "shortName": "San Diego St",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/San Diego St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "san-jose-st",
+      "school": "San Jose St",
+      "mascot": "Not Available",
+      "shortName": "San Jose St",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/San Jose St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "temple",
+      "school": "Temple",
+      "mascot": "Not Available",
+      "shortName": "Temple",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Temple.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "texas-st",
+      "school": "Texas St",
+      "mascot": "Not Available",
+      "shortName": "Texas St",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Texas St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "toledo",
+      "school": "Toledo",
+      "mascot": "Not Available",
+      "shortName": "Toledo",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Toledo.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "troy",
+      "school": "Troy",
+      "mascot": "Not Available",
+      "shortName": "Troy",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Troy.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "tulsa",
+      "school": "Tulsa",
+      "mascot": "Not Available",
+      "shortName": "Tulsa",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Tulsa.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "uab",
+      "school": "UAB",
+      "mascot": "Not Available",
+      "shortName": "UAB",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/UAB.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "unlv",
+      "school": "UNLV",
+      "mascot": "Not Available",
+      "shortName": "UNLV",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/UNLV.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "usf",
+      "school": "USF",
+      "mascot": "Not Available",
+      "shortName": "USF",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/USF.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "utah-st",
+      "school": "Utah St",
+      "mascot": "Not Available",
+      "shortName": "Utah St",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Utah St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "utsa",
+      "school": "UTSA",
+      "mascot": "Not Available",
+      "shortName": "UTSA",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/UTSA.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "w-kentucky",
+      "school": "W. Kentucky",
+      "mascot": "Not Available",
+      "shortName": "W. Kentucky",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/W. Kentucky.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "w-michigan",
+      "school": "W. Michigan",
+      "mascot": "Not Available",
+      "shortName": "W. Michigan",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/W. Michigan.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "wyoming",
+      "school": "Wyoming",
+      "mascot": "Not Available",
+      "shortName": "Wyoming",
+      "conference": "Not Available",
+      "teamPrestige": 1,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/1 Star/Wyoming.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "arizona",
+      "school": "Arizona",
+      "mascot": "Not Available",
+      "shortName": "Arizona",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Arizona.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "army",
+      "school": "Army",
+      "mascot": "Not Available",
+      "shortName": "Army",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Army.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "baylor",
+      "school": "Baylor",
+      "mascot": "Not Available",
+      "shortName": "Baylor",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Baylor.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "boise-st",
+      "school": "Boise St",
+      "mascot": "Not Available",
+      "shortName": "Boise St",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Boise St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "boston-college",
+      "school": "Boston College",
+      "mascot": "Not Available",
+      "shortName": "Boston College",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Boston College.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "cincinnati",
+      "school": "Cincinnati",
+      "mascot": "Not Available",
+      "shortName": "Cincinnati",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Cincinnati.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "east-carolina",
+      "school": "East Carolina",
+      "mascot": "Not Available",
+      "shortName": "East Carolina",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/East Carolina.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "iowa-st",
+      "school": "Iowa St",
+      "mascot": "Not Available",
+      "shortName": "Iowa St",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Iowa St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "kansas-state",
+      "school": "Kansas State",
+      "mascot": "Not Available",
+      "shortName": "Kansas State",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Kansas State.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "kansas",
+      "school": "Kansas",
+      "mascot": "Not Available",
+      "shortName": "Kansas",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Kansas.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "maryland",
+      "school": "Maryland",
+      "mascot": "Not Available",
+      "shortName": "Maryland",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Maryland.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "memphis",
+      "school": "Memphis",
+      "mascot": "Not Available",
+      "shortName": "Memphis",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Memphis.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "mississippi-st",
+      "school": "Mississippi St",
+      "mascot": "Not Available",
+      "shortName": "Mississippi St",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Mississippi St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "navy",
+      "school": "Navy",
+      "mascot": "Not Available",
+      "shortName": "Navy",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Navy.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "north-carolina",
+      "school": "North Carolina",
+      "mascot": "Not Available",
+      "shortName": "North Carolina",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/North Carolina.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "northwestern",
+      "school": "Northwestern",
+      "mascot": "Not Available",
+      "shortName": "Northwestern",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Northwestern.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "oregon-st",
+      "school": "Oregon St",
+      "mascot": "Not Available",
+      "shortName": "Oregon St",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Oregon St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "purdue",
+      "school": "Purdue",
+      "mascot": "Not Available",
+      "shortName": "Purdue",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Purdue .png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "rutgers",
+      "school": "Rutgers",
+      "mascot": "Not Available",
+      "shortName": "Rutgers",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Rutgers.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "tulane",
+      "school": "Tulane",
+      "mascot": "Not Available",
+      "shortName": "Tulane",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Tulane.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "ucf",
+      "school": "UCF",
+      "mascot": "Not Available",
+      "shortName": "UCF",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/UCF.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "vanderbilt",
+      "school": "Vanderbilt",
+      "mascot": "Not Available",
+      "shortName": "Vanderbilt",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Vanderbilt.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "wake-forest",
+      "school": "Wake Forest",
+      "mascot": "Not Available",
+      "shortName": "Wake Forest",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Wake Forest.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "washington-st",
+      "school": "Washington St",
+      "mascot": "Not Available",
+      "shortName": "Washington St",
+      "conference": "Not Available",
+      "teamPrestige": 2,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/2 Star/Washington St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "arizona-st",
+      "school": "Arizona St",
+      "mascot": "Sun Devils",
+      "shortName": "Arizona St",
+      "conference": "Big 12",
+      "teamPrestige": 3,
+      "overall": 79,
+      "offense": 79,
+      "defense": 81,
+      "dynastyPoints": {
+        "total": 5575,
+        "used": 2295,
+        "available": 3280
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "C",
+        "athleticFacilities": "C+",
+        "brandExposure": "B",
+        "campusLifestyle": "A+",
+        "championshipContender": "C",
+        "coachPrestige": "B+",
+        "coachStability": "A-",
+        "conferencePrestige": "A-"
+      },
+      "sourceFile": "input/3 Star/Arizona St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "arkansas",
+      "school": "Arkansas",
+      "mascot": "Razorbacks",
+      "shortName": "Arkansas",
+      "conference": "SEC",
+      "teamPrestige": 3,
+      "overall": 82,
+      "offense": 81,
+      "defense": 84,
+      "dynastyPoints": {
+        "total": 5850,
+        "used": 2525,
+        "available": 3325
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "D+",
+        "athleticFacilities": "A",
+        "brandExposure": "B-",
+        "campusLifestyle": "B",
+        "championshipContender": "C",
+        "coachPrestige": "B",
+        "coachStability": "C+",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/3 Star/Arkansas.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "auburn",
+      "school": "Auburn",
+      "mascot": "Tigers",
+      "shortName": "Auburn",
+      "conference": "SEC",
+      "teamPrestige": 3,
+      "overall": 85,
+      "offense": 86,
+      "defense": 84,
+      "dynastyPoints": {
+        "total": 6980,
+        "used": 2695,
+        "available": 4285
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "C+",
+        "athleticFacilities": "A",
+        "brandExposure": "B-",
+        "campusLifestyle": "A-",
+        "championshipContender": "B-",
+        "coachPrestige": "B",
+        "coachStability": "D+",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/3 Star/Auburn.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "california",
+      "school": "California",
+      "mascot": "Golden Bears",
+      "shortName": "California",
+      "conference": "ACC",
+      "teamPrestige": 3,
+      "overall": 79,
+      "offense": 79,
+      "defense": 79,
+      "dynastyPoints": {
+        "total": 5025,
+        "used": 2650,
+        "available": 2375
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "A",
+        "athleticFacilities": "B",
+        "brandExposure": "B",
+        "campusLifestyle": "B-",
+        "championshipContender": "C+",
+        "coachPrestige": "D+",
+        "coachStability": "C-",
+        "conferencePrestige": "A"
+      },
+      "sourceFile": "input/3 Star/California.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "colorado",
+      "school": "Colorado",
+      "mascot": "Buffaloes",
+      "shortName": "Colorado",
+      "conference": "Big 12",
+      "teamPrestige": 3,
+      "overall": 81,
+      "offense": 81,
+      "defense": 81,
+      "dynastyPoints": {
+        "total": 5875,
+        "used": 2990,
+        "available": 2885
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "C+",
+        "athleticFacilities": "B",
+        "brandExposure": "B+",
+        "campusLifestyle": "A-",
+        "championshipContender": "C-",
+        "coachPrestige": "B",
+        "coachStability": "D",
+        "conferencePrestige": "A-"
+      },
+      "sourceFile": "input/3 Star/Colorado.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "duke",
+      "school": "Duke",
+      "mascot": "Not Available",
+      "shortName": "Duke",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Duke.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "florida-st",
+      "school": "Florida St",
+      "mascot": "Not Available",
+      "shortName": "Florida St",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Florida St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "georgia-tech",
+      "school": "Georgia Tech",
+      "mascot": "Not Available",
+      "shortName": "Georgia Tech",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Georgia Tech.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "houston",
+      "school": "Houston",
+      "mascot": "Not Available",
+      "shortName": "Houston",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Houston.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "illinois",
+      "school": "Illinois",
+      "mascot": "Not Available",
+      "shortName": "Illinois",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Illinois.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "iowa",
+      "school": "Iowa",
+      "mascot": "Not Available",
+      "shortName": "Iowa",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Iowa.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "kentucky",
+      "school": "Kentucky",
+      "mascot": "Not Available",
+      "shortName": "Kentucky",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Kentucky.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "louisville",
+      "school": "Louisville",
+      "mascot": "Not Available",
+      "shortName": "Louisville",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Louisville.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "michigan-st",
+      "school": "Michigan St",
+      "mascot": "Not Available",
+      "shortName": "Michigan St",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Michigan St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "minnesota",
+      "school": "Minnesota",
+      "mascot": "Not Available",
+      "shortName": "Minnesota",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Minnesota.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "missouri",
+      "school": "MIssouri",
+      "mascot": "Not Available",
+      "shortName": "MIssouri",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/MIssouri.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "nc-state",
+      "school": "NC State",
+      "mascot": "Not Available",
+      "shortName": "NC State",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/NC State.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "oklahoma-st",
+      "school": "Oklahoma St",
+      "mascot": "Not Available",
+      "shortName": "Oklahoma St",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Oklahoma St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "pittsburgh",
+      "school": "Pittsburgh",
+      "mascot": "Not Available",
+      "shortName": "Pittsburgh",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Pittsburgh.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "smu",
+      "school": "SMU",
+      "mascot": "Not Available",
+      "shortName": "SMU",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/SMU.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "south-carolina",
+      "school": "South Carolina",
+      "mascot": "Not Available",
+      "shortName": "South Carolina",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/South Carolina.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "stanford",
+      "school": "Stanford",
+      "mascot": "Not Available",
+      "shortName": "Stanford",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Stanford.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "syracuse",
+      "school": "Syracuse",
+      "mascot": "Not Available",
+      "shortName": "Syracuse",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Syracuse.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "tcu",
+      "school": "TCU",
+      "mascot": "Not Available",
+      "shortName": "TCU",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/TCU.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "texas-tech",
+      "school": "Texas Tech",
+      "mascot": "Not Available",
+      "shortName": "Texas Tech",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Texas Tech.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "ucla",
+      "school": "UCLA",
+      "mascot": "Not Available",
+      "shortName": "UCLA",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/UCLA.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "utah",
+      "school": "Utah",
+      "mascot": "Not Available",
+      "shortName": "Utah",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Utah.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "virgina",
+      "school": "Virgina",
+      "mascot": "Not Available",
+      "shortName": "Virgina",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Virgina.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "virginia-tech",
+      "school": "Virginia Tech",
+      "mascot": "Not Available",
+      "shortName": "Virginia Tech",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Virginia Tech.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "wisconsin",
+      "school": "Wisconsin",
+      "mascot": "Not Available",
+      "shortName": "Wisconsin",
+      "conference": "Not Available",
+      "teamPrestige": 3,
+      "overall": "Not Available",
+      "offense": "Not Available",
+      "defense": "Not Available",
+      "dynastyPoints": {
+        "total": "Not Available",
+        "used": "Not Available",
+        "available": "Not Available"
+      },
+      "mySchoolGrades": {},
+      "sourceFile": "input/3 Star/Wisconsin.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": false
+    },
+    {
+      "id": "lsu",
+      "school": "LSU",
+      "mascot": "Tigers",
+      "shortName": "LSU",
+      "conference": "SEC",
+      "teamPrestige": 4,
+      "overall": 89,
+      "offense": 89,
+      "defense": 89,
+      "dynastyPoints": {
+        "total": 10100,
+        "used": 3450,
+        "available": 6650
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "D+",
+        "athleticFacilities": "A+",
+        "brandExposure": "A-",
+        "campusLifestyle": "A+",
+        "championshipContender": "A-",
+        "coachPrestige": "A",
+        "coachStability": "B+",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/LSU.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "miami",
+      "school": "Miami",
+      "mascot": "Hurricanes",
+      "shortName": "Miami",
+      "conference": "ACC",
+      "teamPrestige": 4,
+      "overall": 87,
+      "offense": 86,
+      "defense": 89,
+      "dynastyPoints": {
+        "total": 10225,
+        "used": 4195,
+        "available": 6030
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "B-",
+        "athleticFacilities": "B",
+        "brandExposure": "A+",
+        "campusLifestyle": "A+",
+        "championshipContender": "A",
+        "coachPrestige": "A",
+        "coachStability": "A",
+        "conferencePrestige": "A"
+      },
+      "sourceFile": "input/4 Star/Miami.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "michigan",
+      "school": "Michigan",
+      "mascot": "Wolverines",
+      "shortName": "Michigan",
+      "conference": "Big Ten",
+      "teamPrestige": 4,
+      "overall": 89,
+      "offense": 89,
+      "defense": 89,
+      "dynastyPoints": {
+        "total": 11630,
+        "used": 6540,
+        "available": 5090
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "A-",
+        "athleticFacilities": "A",
+        "brandExposure": "A+",
+        "campusLifestyle": "A-",
+        "championshipContender": "B+",
+        "coachPrestige": "A-",
+        "coachStability": "C+",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/Michigan.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "nebraska",
+      "school": "Nebraska",
+      "mascot": "Cornhuskers",
+      "shortName": "Nebraska",
+      "conference": "Big Ten",
+      "teamPrestige": 4,
+      "overall": 84,
+      "offense": 84,
+      "defense": 84,
+      "dynastyPoints": {
+        "total": 8300,
+        "used": 4060,
+        "available": 4240
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "A-",
+        "athleticFacilities": "A",
+        "brandExposure": "A+",
+        "campusLifestyle": "A-",
+        "championshipContender": "B+",
+        "coachPrestige": "A-",
+        "coachStability": "C+",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/Nebraska.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "notre-dame",
+      "school": "Notre Dame",
+      "mascot": "Fighting Irish",
+      "shortName": "Notre Dame",
+      "conference": "Independent",
+      "teamPrestige": 4,
+      "overall": 91,
+      "offense": 91,
+      "defense": 91,
+      "dynastyPoints": {
+        "total": 11275,
+        "used": 4635,
+        "available": 6640
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "A",
+        "athleticFacilities": "A",
+        "brandExposure": "A+",
+        "campusLifestyle": "B+",
+        "championshipContender": "A+",
+        "coachPrestige": "A+",
+        "coachStability": "A",
+        "conferencePrestige": "A"
+      },
+      "sourceFile": "input/4 Star/Notre Dame.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "oklahoma",
+      "school": "Oklahoma",
+      "mascot": "Sooners",
+      "shortName": "Oklahoma",
+      "conference": "SEC",
+      "teamPrestige": 4,
+      "overall": 86,
+      "offense": 86,
+      "defense": 86,
+      "dynastyPoints": {
+        "total": 10930,
+        "used": 6015,
+        "available": 4915
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "C",
+        "athleticFacilities": "A-",
+        "brandExposure": "A",
+        "campusLifestyle": "B+",
+        "championshipContender": "A-",
+        "coachPrestige": "A",
+        "coachStability": "B+",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/Oklahoma.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "ole-miss",
+      "school": "Ole Miss",
+      "mascot": "Rebels",
+      "shortName": "Ole Miss",
+      "conference": "SEC",
+      "teamPrestige": 4,
+      "overall": 86,
+      "offense": 86,
+      "defense": 86,
+      "dynastyPoints": {
+        "total": 8350,
+        "used": 3160,
+        "available": 5190
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "D+",
+        "athleticFacilities": "B+",
+        "brandExposure": "A-",
+        "campusLifestyle": "A-",
+        "championshipContender": "A",
+        "coachPrestige": "B",
+        "coachStability": "B-",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/Ole Miss.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "oregon",
+      "school": "Oregon",
+      "mascot": "Ducks",
+      "shortName": "Oregon",
+      "conference": "Big Ten",
+      "teamPrestige": 4,
+      "overall": 91,
+      "offense": 91,
+      "defense": 91,
+      "dynastyPoints": {
+        "total": 10280,
+        "used": 2900,
+        "available": 7380
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "C+",
+        "athleticFacilities": "A+",
+        "brandExposure": "A",
+        "campusLifestyle": "A",
+        "championshipContender": "A+",
+        "coachPrestige": "A+",
+        "coachStability": "A",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/Oregon.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "penn-st",
+      "school": "Penn St",
+      "mascot": "Nittany Lions",
+      "shortName": "Penn St",
+      "conference": "Big Ten",
+      "teamPrestige": 4,
+      "overall": 84,
+      "offense": 84,
+      "defense": 84,
+      "dynastyPoints": {
+        "total": 9750,
+        "used": 5770,
+        "available": 3980
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "B",
+        "athleticFacilities": "B+",
+        "brandExposure": "A-",
+        "campusLifestyle": "A-",
+        "championshipContender": "B+",
+        "coachPrestige": "B+",
+        "coachStability": "B",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/Penn St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "tennessee",
+      "school": "Tennessee",
+      "mascot": "Volunteers",
+      "shortName": "Tennessee",
+      "conference": "SEC",
+      "teamPrestige": 4,
+      "overall": 86,
+      "offense": 86,
+      "defense": 86,
+      "dynastyPoints": {
+        "total": 9180,
+        "used": 5135,
+        "available": 4045
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "C",
+        "athleticFacilities": "B-",
+        "brandExposure": "A-",
+        "campusLifestyle": "B+",
+        "championshipContender": "B",
+        "coachPrestige": "A",
+        "coachStability": "B+",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/Tennessee.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "texas-aandm",
+      "school": "Texas A&M",
+      "mascot": "Aggies",
+      "shortName": "Texas A&M",
+      "conference": "SEC",
+      "teamPrestige": 4,
+      "overall": 89,
+      "offense": 89,
+      "defense": 91,
+      "dynastyPoints": {
+        "total": 8180,
+        "used": 2545,
+        "available": 5635
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "B",
+        "athleticFacilities": "A+",
+        "brandExposure": "B+",
+        "campusLifestyle": "B+",
+        "championshipContender": "A",
+        "coachPrestige": "B+",
+        "coachStability": "A-",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/Texas A&M.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "texas",
+      "school": "Texas",
+      "mascot": "Longhorns",
+      "shortName": "Texas",
+      "conference": "SEC",
+      "teamPrestige": 4,
+      "overall": 89,
+      "offense": 89,
+      "defense": 91,
+      "dynastyPoints": {
+        "total": 10630,
+        "used": 3460,
+        "available": 7170
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "B+",
+        "athleticFacilities": "A+",
+        "brandExposure": "A",
+        "campusLifestyle": "A+",
+        "championshipContender": "A",
+        "coachPrestige": "A+",
+        "coachStability": "A",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/Texas.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "usc",
+      "school": "USC",
+      "mascot": "Trojans",
+      "shortName": "USC",
+      "conference": "Big Ten",
+      "teamPrestige": 4,
+      "overall": 84,
+      "offense": 84,
+      "defense": 84,
+      "dynastyPoints": {
+        "total": 10400,
+        "used": 5710,
+        "available": 4690
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "A-",
+        "athleticFacilities": "A",
+        "brandExposure": "A",
+        "campusLifestyle": "A+",
+        "championshipContender": "B+",
+        "coachPrestige": "A-",
+        "coachStability": "B",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/USC.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "washington",
+      "school": "Washington",
+      "mascot": "Huskies",
+      "shortName": "Washington",
+      "conference": "Big Ten",
+      "teamPrestige": 4,
+      "overall": 82,
+      "offense": 81,
+      "defense": 84,
+      "dynastyPoints": {
+        "total": 7880,
+        "used": 5015,
+        "available": 2865
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "B",
+        "athleticFacilities": "B",
+        "brandExposure": "B+",
+        "campusLifestyle": "B+",
+        "championshipContender": "B-",
+        "coachPrestige": "B-",
+        "coachStability": "C",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/4 Star/Washington St.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "alabama",
+      "school": "Alabama",
+      "mascot": "Crimson Tide",
+      "shortName": "Alabama",
+      "conference": "SEC",
+      "teamPrestige": 5,
+      "overall": 92,
+      "offense": 91,
+      "defense": 94,
+      "dynastyPoints": {
+        "total": 12500,
+        "used": 5870,
+        "available": 6630
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "D+",
+        "athleticFacilities": "A+",
+        "brandExposure": "A+",
+        "campusLifestyle": "A-",
+        "championshipContender": "A-",
+        "coachPrestige": "A-",
+        "coachStability": "B+",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/5 Star/Alabama.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "georgia",
+      "school": "Georgia",
+      "mascot": "Bulldogs",
+      "shortName": "Georgia",
+      "conference": "SEC",
+      "teamPrestige": 5,
+      "overall": 94,
+      "offense": 94,
+      "defense": 94,
+      "dynastyPoints": {
+        "total": 12200,
+        "used": 5135,
+        "available": 7065
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "B+",
+        "athleticFacilities": "A+",
+        "brandExposure": "A+",
+        "campusLifestyle": "A",
+        "championshipContender": "A+",
+        "coachPrestige": "A+",
+        "coachStability": "A+",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/5 Star/Georgia.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    },
+    {
+      "id": "ohio-state",
+      "school": "Ohio State",
+      "mascot": "Buckeyes",
+      "shortName": "Ohio State",
+      "conference": "Big Ten",
+      "teamPrestige": 5,
+      "overall": 94,
+      "offense": 94,
+      "defense": 94,
+      "dynastyPoints": {
+        "total": 12500,
+        "used": 4875,
+        "available": 7625
+      },
+      "mySchoolGrades": {
+        "academicPrestige": "B+",
+        "athleticFacilities": "A+",
+        "brandExposure": "A+",
+        "campusLifestyle": "A",
+        "championshipContender": "A+",
+        "coachPrestige": "A+",
+        "coachStability": "A+",
+        "conferencePrestige": "A+"
+      },
+      "sourceFile": "input/5 Star/Ohio State.png",
+      "extractionMethod": "vision-reviewed",
+      "verified": true
+    }
+  ]
+}

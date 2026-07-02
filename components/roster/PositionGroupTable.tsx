@@ -21,19 +21,19 @@ export function PositionGroupTable({ groups }: PositionGroupTableProps) {
       </div>
 
       <div className="overflow-hidden rounded-lg border border-white/10">
-        <div className="hidden grid-cols-[0.7fr_0.9fr_0.9fr_1fr_1.2fr_0.9fr] gap-4 border-b border-white/10 bg-white/[0.035] px-4 py-3 text-xs font-semibold uppercase tracking-[0.14em] text-blueprint-300 lg:grid">
+        <div className="hidden grid-cols-[0.7fr_0.8fr_0.8fr_0.9fr_0.9fr_0.9fr] gap-4 border-b border-white/10 bg-white/[0.035] px-4 py-3 text-xs font-semibold uppercase tracking-[0.14em] text-blueprint-300 lg:grid">
           <span>Position</span>
           <span>Current</span>
           <span>Future</span>
           <span>Depth</span>
-          <span>Development</span>
+          <span>Senior Risk</span>
           <span>Need</span>
         </div>
 
         <div className="divide-y divide-white/10">
           {groups.map((group) => (
             <div
-              className="grid gap-3 px-4 py-4 text-sm lg:grid-cols-[0.7fr_0.9fr_0.9fr_1fr_1.2fr_0.9fr] lg:items-center"
+              className="grid gap-3 px-4 py-4 text-sm lg:grid-cols-[0.7fr_0.8fr_0.8fr_0.9fr_0.9fr_0.9fr] lg:items-center"
               key={group.position}
             >
               <div>
@@ -45,7 +45,7 @@ export function PositionGroupTable({ groups }: PositionGroupTableProps) {
               <RosterCell label="Current" value={group.currentGrade} />
               <RosterCell label="Future" value={group.futureGrade} />
               <RosterCell label="Depth" value={group.depthStatus} />
-              <RosterCell label="Development" value={group.developmentOutlook} />
+              <RosterCell label="Senior Risk" value={group.seniorDepartureRisk} />
               <div>
                 <StatusBadge tone={needTone[group.needLevel]}>{group.needLevel}</StatusBadge>
               </div>

@@ -6,6 +6,7 @@ import {
   dynastyTypeLabels,
   type ProgramProfile
 } from "@/types/program";
+import { formatConference, formatText } from "@/utils/display-formatters";
 
 type ProgramHeaderProps = {
   profile: ProgramProfile;
@@ -17,14 +18,17 @@ export function ProgramHeader({ profile }: ProgramHeaderProps) {
       <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
         <div>
           <div className="flex flex-wrap items-center gap-3">
-            <StatusBadge>{profile.school.conference}</StatusBadge>
+            <StatusBadge>{formatConference(profile.school.conference)}</StatusBadge>
             <StatusBadge tone="ready">{dynastyTypeLabels[profile.dynastyType]}</StatusBadge>
+            <StatusBadge>{profile.currentPhase}</StatusBadge>
           </div>
           <h1 className="mt-5 text-3xl font-semibold tracking-normal text-white sm:text-4xl">
-            {profile.school.name} {profile.school.mascot}
+            {profile.school.name} {formatText(profile.school.mascot)}
           </h1>
           <p className="mt-3 text-sm leading-6 text-blueprint-200">
-            {profile.school.location}
+            Season {profile.season} •{" "}
+            {profile.week === 0 ? "Football Operations setup" : `Week ${profile.week}`} •{" "}
+            {profile.school.location ?? "Location Not Available"}
           </p>
         </div>
 

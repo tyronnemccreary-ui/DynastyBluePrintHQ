@@ -3,10 +3,12 @@
 import Link from "next/link";
 import { ArrowRight, FileStack } from "lucide-react";
 import { BlueprintAllocator } from "@/components/blueprint/BlueprintAllocator";
+import { DepartmentActivationCard } from "@/components/departments/DepartmentActivationCard";
 import { Card } from "@/components/ui/card";
 import { SectionHeader } from "@/components/ui/section-header";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { useProgramStore } from "@/store/program-store";
+import { getDepartmentActivation } from "@/utils/department-activation";
 
 export default function BlueprintPlannerPage() {
   const programProfile = useProgramStore((state) => state.programProfile);
@@ -16,8 +18,8 @@ export default function BlueprintPlannerPage() {
       <div className="space-y-6">
         <SectionHeader
           eyebrow="Resource Planning"
-          title="Blueprint Planner"
-          description="Create a Program Profile before planning Dynasty Point allocations."
+          title="Football Operations Budget"
+          description="Create a Program Profile before planning the annual Dynasty Point budget."
           status="Setup Needed"
         />
 
@@ -31,8 +33,8 @@ export default function BlueprintPlannerPage() {
               Start with Welcome to the Program
             </h2>
             <p className="mt-3 text-sm leading-6 text-blueprint-200">
-              The Blueprint Planner needs a school and coach profile before recommending how to
-              distribute Dynasty Points.
+              The Football Operations Budget needs a school and coach profile before recommending
+              how to distribute Dynasty Points.
             </p>
             <Link
               className="mt-6 inline-flex h-10 items-center justify-center gap-2 rounded-md bg-turf-400 px-4 text-sm font-medium text-blueprint-950 transition-colors hover:bg-[#ffc83d] focus:outline-none focus:ring-2 focus:ring-turf-400/60"
@@ -47,14 +49,20 @@ export default function BlueprintPlannerPage() {
     );
   }
 
+  const activation = getDepartmentActivation("blueprint-planner", programProfile);
+
   return (
     <div className="space-y-6">
       <SectionHeader
         eyebrow="Resource Planning"
-        title="Blueprint Planner"
-        description="A simple planning view for allocating Dynasty Points across the core Blueprint areas."
-        status="Planning Active"
+        title="Football Operations Budget"
+        description="A simple annual planning view for allocating Dynasty Points across staff, facilities, recruiting NIL, and roster NIL."
+        status={activation?.status === "Ready" ? "Planning Active" : "Needs Activation"}
       />
+
+      {activation && activation.status !== "Ready" ? (
+        <DepartmentActivationCard department={activation} />
+      ) : null}
 
       <BlueprintAllocator profile={programProfile} />
     </div>

@@ -1,13 +1,20 @@
 import { CircleDollarSign } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { MetricCard } from "@/components/ui/metric-card";
 import { StatusBadge } from "@/components/ui/status-badge";
 import type { School } from "@/types/school";
+import { formatDynastyPointValue, getAvailableDynastyPoints } from "@/utils/display-formatters";
 
 type BlueprintSnapshotCardProps = {
   school: School;
 };
 
 export function BlueprintSnapshotCard({ school }: BlueprintSnapshotCardProps) {
+  const dynastyPoints = school.dynastyPoints;
+  const availablePoints =
+    getAvailableDynastyPoints(dynastyPoints) ?? school.blueprintSnapshot?.availableDynastyPoints;
+  const focusAreas = school.blueprintSnapshot?.focusAreas ?? [];
+
   return (
     <Card className="p-6">
       <div className="flex items-start justify-between gap-4">
@@ -20,21 +27,37 @@ export function BlueprintSnapshotCard({ school }: BlueprintSnapshotCardProps) {
         </div>
       </div>
 
-      <div className="mt-6 rounded-lg border border-white/10 bg-white/[0.035] p-5">
-        <p className="text-xs font-medium uppercase tracking-[0.16em] text-blueprint-300">
-          Available Dynasty Points
-        </p>
-        <p className="mt-4 text-3xl font-semibold text-white">
-          {school.blueprintSnapshot.availableDynastyPoints}
-        </p>
+      <div className="mt-6 grid gap-4 sm:grid-cols-2">
+        <MetricCard
+          label="Total"
+          value={formatDynastyPointValue(dynastyPoints?.total)}
+          detail="Dynasty Points"
+        />
+        <MetricCard
+          label="Allocated"
+          value={formatDynastyPointValue(dynastyPoints?.allocated)}
+          detail="Dynasty Points"
+        />
+        <MetricCard
+          label="Used"
+          value={formatDynastyPointValue(dynastyPoints?.used)}
+          detail="Dynasty Points"
+        />
+        <MetricCard
+          label="Available"
+          value={formatDynastyPointValue(availablePoints)}
+          detail="Dynasty Points"
+        />
       </div>
 
       <div className="mt-5">
         <p className="text-sm font-medium text-blueprint-100">Suggested Focus Areas</p>
         <div className="mt-3 flex flex-wrap gap-2">
-          {school.blueprintSnapshot.focusAreas.map((area) => (
-            <StatusBadge key={area}>{area}</StatusBadge>
-          ))}
+          {focusAreas.length > 0 ? (
+            focusAreas.map((area) => <StatusBadge key={area}>{area}</StatusBadge>)
+          ) : (
+            <StatusBadge>Not Available</StatusBadge>
+          )}
         </div>
       </div>
     </Card>

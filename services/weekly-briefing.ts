@@ -3,6 +3,7 @@ import { oklahomaMockRoster } from "@/data/mock-roster";
 import { oklahomaStaffOverview } from "@/data/mock-staff";
 import { oklahomaTransferOverview } from "@/data/mock-transfers";
 import type { ProgramProfile } from "@/types/program";
+import type { NumericValue } from "@/types/team";
 import type {
   DepartmentReport,
   WeeklyOperationsBriefing
@@ -17,6 +18,7 @@ export function getWeeklyOperationsBriefing({
   programProfile
 }: WeeklyBriefingInput): WeeklyOperationsBriefing {
   const topDecisions = getTopFootballOperationsIntelligence({ programProfile });
+  const prestige = programProfile.school.teamPrestige ?? programProfile.school.prestige;
   const mainRosterConcern =
     topDecisions.find((decision) => decision.category === "Roster")?.title ??
     "overall roster balance";
@@ -29,25 +31,30 @@ export function getWeeklyOperationsBriefing({
     )?.title ?? "resource discipline";
 
   return {
-    executiveSummary: `Coach, ${programProfile.school.name} remains in a strong program position with ${programProfile.school.prestige}-star prestige and a ${oklahomaMockRoster.overview.overallGrade} roster profile. The main roster concern is ${mainRosterConcern.toLowerCase()}, while recruiting should stay focused on ${mainRecruitingConcern.toLowerCase()}. From a Dynasty Blueprint standpoint, ${mainBlueprintConcern.toLowerCase()} should guide the next resource conversation. Overall direction is positive, but the staff should keep the week centered on roster stability and disciplined spending.`,
+    executiveSummary: `Coach, ${programProfile.school.name} remains in a strong program position with ${formatPrestige(prestige)} prestige and a ${oklahomaMockRoster.overview.overallGrade} roster profile. The main roster concern is ${mainRosterConcern.toLowerCase()}, while recruiting should stay focused on ${mainRecruitingConcern.toLowerCase()}. From a Football Operations Budget standpoint, ${mainBlueprintConcern.toLowerCase()} should guide the next resource conversation. Overall direction is positive, but the staff should keep the week centered on roster stability and disciplined spending.`,
     departmentReports: buildDepartmentReports(programProfile),
     topDecisions
   };
 }
 
 function buildDepartmentReports(programProfile: ProgramProfile): DepartmentReport[] {
+  const prestige = programProfile.school.teamPrestige ?? programProfile.school.prestige;
+  const expectationLevel =
+    programProfile.school.adExpectations?.expectationLevel ?? "not available";
+  const dynastyPoints = programProfile.seasonBudget.pointsAvailable;
+
   return [
     {
       departmentName: "Program Office",
       status: "Stable",
-      keyObservation: `${programProfile.school.name} has ${programProfile.school.prestige}-star prestige with ${programProfile.school.adExpectations.expectationLevel.toLowerCase()} expectations.`,
+      keyObservation: `${programProfile.school.name} has ${formatPrestige(prestige)} prestige with ${expectationLevel.toLowerCase()} expectations.`,
       recommendedFocus:
         "Keep program standards aligned with AD expectations before approving new resource shifts."
     },
     {
-      departmentName: "Blueprint Planner",
+      departmentName: "Football Operations Budget",
       status: "Active",
-      keyObservation: `${programProfile.school.blueprintSnapshot.availableDynastyPoints} Dynasty Points are available for the current planning window.`,
+      keyObservation: `${formatPoints(dynastyPoints)} Dynasty Points are available for the current planning window.`,
       recommendedFocus:
         "Protect flexibility across staff, facilities, recruiting NIL, and roster NIL."
     },
@@ -80,4 +87,12 @@ function buildDepartmentReports(programProfile: ProgramProfile): DepartmentRepor
         "Support recruiting execution and player development before expanding optional staff roles."
     }
   ];
+}
+
+function formatPrestige(prestige?: number) {
+  return typeof prestige === "number" ? `${prestige}-star` : "not available";
+}
+
+function formatPoints(points?: NumericValue) {
+  return typeof points === "number" ? `${points}` : "Not Available";
 }
